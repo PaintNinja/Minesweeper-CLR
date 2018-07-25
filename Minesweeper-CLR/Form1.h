@@ -437,6 +437,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button100->TabIndex = 299;
 			this->button100->Text = L"button100";
 			this->button100->UseVisualStyleBackColor = true;
+			this->button100->Click += gcnew System::EventHandler(this, &Form1::button100_Click);
 			// 
 			// button99
 			// 
@@ -448,6 +449,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button99->TabIndex = 298;
 			this->button99->Text = L"button99";
 			this->button99->UseVisualStyleBackColor = true;
+			this->button99->Click += gcnew System::EventHandler(this, &Form1::button99_Click);
 			// 
 			// button98
 			// 
@@ -459,6 +461,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button98->TabIndex = 297;
 			this->button98->Text = L"button98";
 			this->button98->UseVisualStyleBackColor = true;
+			this->button98->Click += gcnew System::EventHandler(this, &Form1::button98_Click);
 			// 
 			// button97
 			// 
@@ -470,6 +473,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button97->TabIndex = 296;
 			this->button97->Text = L"button97";
 			this->button97->UseVisualStyleBackColor = true;
+			this->button97->Click += gcnew System::EventHandler(this, &Form1::button97_Click);
 			// 
 			// button96
 			// 
@@ -481,6 +485,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button96->TabIndex = 295;
 			this->button96->Text = L"button96";
 			this->button96->UseVisualStyleBackColor = true;
+			this->button96->Click += gcnew System::EventHandler(this, &Form1::button96_Click);
 			// 
 			// button95
 			// 
@@ -492,6 +497,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button95->TabIndex = 294;
 			this->button95->Text = L"button95";
 			this->button95->UseVisualStyleBackColor = true;
+			this->button95->Click += gcnew System::EventHandler(this, &Form1::button95_Click);
 			// 
 			// button94
 			// 
@@ -503,6 +509,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button94->TabIndex = 293;
 			this->button94->Text = L"button94";
 			this->button94->UseVisualStyleBackColor = true;
+			this->button94->Click += gcnew System::EventHandler(this, &Form1::button94_Click);
 			// 
 			// button93
 			// 
@@ -514,6 +521,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button93->TabIndex = 292;
 			this->button93->Text = L"button93";
 			this->button93->UseVisualStyleBackColor = true;
+			this->button93->Click += gcnew System::EventHandler(this, &Form1::button93_Click);
 			// 
 			// button92
 			// 
@@ -525,6 +533,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button92->TabIndex = 291;
 			this->button92->Text = L"button92";
 			this->button92->UseVisualStyleBackColor = true;
+			this->button92->Click += gcnew System::EventHandler(this, &Form1::button92_Click);
 			// 
 			// button91
 			// 
@@ -536,6 +545,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button91->TabIndex = 290;
 			this->button91->Text = L"button91";
 			this->button91->UseVisualStyleBackColor = true;
+			this->button91->Click += gcnew System::EventHandler(this, &Form1::button91_Click);
 			// 
 			// button90
 			// 
@@ -547,6 +557,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button90->TabIndex = 289;
 			this->button90->Text = L"button90";
 			this->button90->UseVisualStyleBackColor = true;
+			this->button90->Click += gcnew System::EventHandler(this, &Form1::button90_Click);
 			// 
 			// button89
 			// 
@@ -558,6 +569,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button89->TabIndex = 288;
 			this->button89->Text = L"button89";
 			this->button89->UseVisualStyleBackColor = true;
+			this->button89->Click += gcnew System::EventHandler(this, &Form1::button89_Click);
 			// 
 			// button88
 			// 
@@ -569,6 +581,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button88->TabIndex = 287;
 			this->button88->Text = L"button88";
 			this->button88->UseVisualStyleBackColor = true;
+			this->button88->Click += gcnew System::EventHandler(this, &Form1::button88_Click);
 			// 
 			// button87
 			// 
@@ -580,6 +593,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button87->TabIndex = 286;
 			this->button87->Text = L"button87";
 			this->button87->UseVisualStyleBackColor = true;
+			this->button87->Click += gcnew System::EventHandler(this, &Form1::button87_Click);
 			// 
 			// button86
 			// 
@@ -591,6 +605,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button86->TabIndex = 285;
 			this->button86->Text = L"button86";
 			this->button86->UseVisualStyleBackColor = true;
+			this->button86->Click += gcnew System::EventHandler(this, &Form1::button86_Click);
 			// 
 			// button85
 			// 
@@ -602,6 +617,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button85->TabIndex = 284;
 			this->button85->Text = L"button85";
 			this->button85->UseVisualStyleBackColor = true;
+			this->button85->Click += gcnew System::EventHandler(this, &Form1::button85_Click);
 			// 
 			// button84
 			// 
@@ -613,6 +629,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button84->TabIndex = 283;
 			this->button84->Text = L"button84";
 			this->button84->UseVisualStyleBackColor = true;
+			this->button84->Click += gcnew System::EventHandler(this, &Form1::button84_Click);
 			// 
 			// button83
 			// 
@@ -624,6 +641,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button83->TabIndex = 282;
 			this->button83->Text = L"button83";
 			this->button83->UseVisualStyleBackColor = true;
+			this->button83->Click += gcnew System::EventHandler(this, &Form1::button83_Click);
 			// 
 			// button82
 			// 
@@ -635,6 +653,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button82->TabIndex = 281;
 			this->button82->Text = L"button82";
 			this->button82->UseVisualStyleBackColor = true;
+			this->button82->Click += gcnew System::EventHandler(this, &Form1::button82_Click);
 			// 
 			// button81
 			// 
@@ -646,6 +665,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button81->TabIndex = 280;
 			this->button81->Text = L"button81";
 			this->button81->UseVisualStyleBackColor = true;
+			this->button81->Click += gcnew System::EventHandler(this, &Form1::button81_Click);
 			// 
 			// button80
 			// 
@@ -657,6 +677,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button80->TabIndex = 279;
 			this->button80->Text = L"button80";
 			this->button80->UseVisualStyleBackColor = true;
+			this->button80->Click += gcnew System::EventHandler(this, &Form1::button80_Click);
 			// 
 			// button79
 			// 
@@ -668,6 +689,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button79->TabIndex = 278;
 			this->button79->Text = L"button79";
 			this->button79->UseVisualStyleBackColor = true;
+			this->button79->Click += gcnew System::EventHandler(this, &Form1::button79_Click);
 			// 
 			// button78
 			// 
@@ -679,6 +701,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button78->TabIndex = 277;
 			this->button78->Text = L"button78";
 			this->button78->UseVisualStyleBackColor = true;
+			this->button78->Click += gcnew System::EventHandler(this, &Form1::button78_Click);
 			// 
 			// button77
 			// 
@@ -690,6 +713,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button77->TabIndex = 276;
 			this->button77->Text = L"button77";
 			this->button77->UseVisualStyleBackColor = true;
+			this->button77->Click += gcnew System::EventHandler(this, &Form1::button77_Click);
 			// 
 			// button76
 			// 
@@ -701,6 +725,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button76->TabIndex = 275;
 			this->button76->Text = L"button76";
 			this->button76->UseVisualStyleBackColor = true;
+			this->button76->Click += gcnew System::EventHandler(this, &Form1::button76_Click);
 			// 
 			// button75
 			// 
@@ -712,6 +737,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button75->TabIndex = 274;
 			this->button75->Text = L"button75";
 			this->button75->UseVisualStyleBackColor = true;
+			this->button75->Click += gcnew System::EventHandler(this, &Form1::button75_Click);
 			// 
 			// button74
 			// 
@@ -723,6 +749,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button74->TabIndex = 273;
 			this->button74->Text = L"button74";
 			this->button74->UseVisualStyleBackColor = true;
+			this->button74->Click += gcnew System::EventHandler(this, &Form1::button74_Click);
 			// 
 			// button73
 			// 
@@ -734,6 +761,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button73->TabIndex = 272;
 			this->button73->Text = L"button73";
 			this->button73->UseVisualStyleBackColor = true;
+			this->button73->Click += gcnew System::EventHandler(this, &Form1::button73_Click);
 			// 
 			// button72
 			// 
@@ -745,6 +773,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button72->TabIndex = 271;
 			this->button72->Text = L"button72";
 			this->button72->UseVisualStyleBackColor = true;
+			this->button72->Click += gcnew System::EventHandler(this, &Form1::button72_Click);
 			// 
 			// button71
 			// 
@@ -756,6 +785,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button71->TabIndex = 270;
 			this->button71->Text = L"button71";
 			this->button71->UseVisualStyleBackColor = true;
+			this->button71->Click += gcnew System::EventHandler(this, &Form1::button71_Click);
 			// 
 			// button70
 			// 
@@ -767,6 +797,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button70->TabIndex = 269;
 			this->button70->Text = L"button70";
 			this->button70->UseVisualStyleBackColor = true;
+			this->button70->Click += gcnew System::EventHandler(this, &Form1::button70_Click);
 			// 
 			// button69
 			// 
@@ -778,6 +809,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button69->TabIndex = 268;
 			this->button69->Text = L"button69";
 			this->button69->UseVisualStyleBackColor = true;
+			this->button69->Click += gcnew System::EventHandler(this, &Form1::button69_Click);
 			// 
 			// button68
 			// 
@@ -789,6 +821,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button68->TabIndex = 267;
 			this->button68->Text = L"button68";
 			this->button68->UseVisualStyleBackColor = true;
+			this->button68->Click += gcnew System::EventHandler(this, &Form1::button68_Click);
 			// 
 			// button67
 			// 
@@ -800,6 +833,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button67->TabIndex = 266;
 			this->button67->Text = L"button67";
 			this->button67->UseVisualStyleBackColor = true;
+			this->button67->Click += gcnew System::EventHandler(this, &Form1::button67_Click);
 			// 
 			// button66
 			// 
@@ -811,6 +845,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button66->TabIndex = 265;
 			this->button66->Text = L"button66";
 			this->button66->UseVisualStyleBackColor = true;
+			this->button66->Click += gcnew System::EventHandler(this, &Form1::button66_Click);
 			// 
 			// button65
 			// 
@@ -822,6 +857,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button65->TabIndex = 264;
 			this->button65->Text = L"button65";
 			this->button65->UseVisualStyleBackColor = true;
+			this->button65->Click += gcnew System::EventHandler(this, &Form1::button65_Click);
 			// 
 			// button64
 			// 
@@ -833,6 +869,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button64->TabIndex = 263;
 			this->button64->Text = L"button64";
 			this->button64->UseVisualStyleBackColor = true;
+			this->button64->Click += gcnew System::EventHandler(this, &Form1::button64_Click);
 			// 
 			// button63
 			// 
@@ -844,6 +881,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button63->TabIndex = 262;
 			this->button63->Text = L"button63";
 			this->button63->UseVisualStyleBackColor = true;
+			this->button63->Click += gcnew System::EventHandler(this, &Form1::button63_Click);
 			// 
 			// button62
 			// 
@@ -855,6 +893,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button62->TabIndex = 261;
 			this->button62->Text = L"button62";
 			this->button62->UseVisualStyleBackColor = true;
+			this->button62->Click += gcnew System::EventHandler(this, &Form1::button62_Click);
 			// 
 			// button61
 			// 
@@ -866,6 +905,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button61->TabIndex = 260;
 			this->button61->Text = L"button61";
 			this->button61->UseVisualStyleBackColor = true;
+			this->button61->Click += gcnew System::EventHandler(this, &Form1::button61_Click);
 			// 
 			// button60
 			// 
@@ -877,6 +917,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button60->TabIndex = 259;
 			this->button60->Text = L"button60";
 			this->button60->UseVisualStyleBackColor = true;
+			this->button60->Click += gcnew System::EventHandler(this, &Form1::button60_Click);
 			// 
 			// button59
 			// 
@@ -888,6 +929,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button59->TabIndex = 258;
 			this->button59->Text = L"button59";
 			this->button59->UseVisualStyleBackColor = true;
+			this->button59->Click += gcnew System::EventHandler(this, &Form1::button59_Click);
 			// 
 			// button58
 			// 
@@ -899,6 +941,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button58->TabIndex = 257;
 			this->button58->Text = L"button58";
 			this->button58->UseVisualStyleBackColor = true;
+			this->button58->Click += gcnew System::EventHandler(this, &Form1::button58_Click);
 			// 
 			// button57
 			// 
@@ -910,6 +953,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button57->TabIndex = 256;
 			this->button57->Text = L"button57";
 			this->button57->UseVisualStyleBackColor = true;
+			this->button57->Click += gcnew System::EventHandler(this, &Form1::button57_Click);
 			// 
 			// button56
 			// 
@@ -921,6 +965,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button56->TabIndex = 255;
 			this->button56->Text = L"button56";
 			this->button56->UseVisualStyleBackColor = true;
+			this->button56->Click += gcnew System::EventHandler(this, &Form1::button56_Click);
 			// 
 			// button55
 			// 
@@ -932,6 +977,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button55->TabIndex = 254;
 			this->button55->Text = L"button55";
 			this->button55->UseVisualStyleBackColor = true;
+			this->button55->Click += gcnew System::EventHandler(this, &Form1::button55_Click);
 			// 
 			// button54
 			// 
@@ -943,6 +989,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button54->TabIndex = 253;
 			this->button54->Text = L"button54";
 			this->button54->UseVisualStyleBackColor = true;
+			this->button54->Click += gcnew System::EventHandler(this, &Form1::button54_Click);
 			// 
 			// button53
 			// 
@@ -954,6 +1001,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button53->TabIndex = 252;
 			this->button53->Text = L"button53";
 			this->button53->UseVisualStyleBackColor = true;
+			this->button53->Click += gcnew System::EventHandler(this, &Form1::button53_Click);
 			// 
 			// button52
 			// 
@@ -965,6 +1013,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button52->TabIndex = 251;
 			this->button52->Text = L"button52";
 			this->button52->UseVisualStyleBackColor = true;
+			this->button52->Click += gcnew System::EventHandler(this, &Form1::button52_Click);
 			// 
 			// button51
 			// 
@@ -976,6 +1025,7 @@ namespace CppCLR_WinformsProjekt {
 			this->button51->TabIndex = 250;
 			this->button51->Text = L"button51";
 			this->button51->UseVisualStyleBackColor = true;
+			this->button51->Click += gcnew System::EventHandler(this, &Form1::button51_Click);
 			// 
 			// button50
 			// 
@@ -1648,6 +1698,108 @@ namespace CppCLR_WinformsProjekt {
 				std::cout << std::endl;
 			}
 			std::cout << std::endl;
+
+			// reset all the buttons back to blank so that they're ready for the next game
+			button1->UseVisualStyleBackColor = true;
+			button2->UseVisualStyleBackColor = true;
+			button3->UseVisualStyleBackColor = true;
+			button4->UseVisualStyleBackColor = true;
+			button5->UseVisualStyleBackColor = true;
+			button6->UseVisualStyleBackColor = true;
+			button7->UseVisualStyleBackColor = true;
+			button8->UseVisualStyleBackColor = true;
+			button9->UseVisualStyleBackColor = true;
+			button10->UseVisualStyleBackColor = true;
+			button21->UseVisualStyleBackColor = true;
+			button22->UseVisualStyleBackColor = true;
+			button23->UseVisualStyleBackColor = true;
+			button24->UseVisualStyleBackColor = true;
+			button25->UseVisualStyleBackColor = true;
+			button26->UseVisualStyleBackColor = true;
+			button27->UseVisualStyleBackColor = true;
+			button28->UseVisualStyleBackColor = true;
+			button29->UseVisualStyleBackColor = true;
+			button20->UseVisualStyleBackColor = true;
+			button21->UseVisualStyleBackColor = true;
+			button22->UseVisualStyleBackColor = true;
+			button23->UseVisualStyleBackColor = true;
+			button24->UseVisualStyleBackColor = true;
+			button25->UseVisualStyleBackColor = true;
+			button26->UseVisualStyleBackColor = true;
+			button27->UseVisualStyleBackColor = true;
+			button28->UseVisualStyleBackColor = true;
+			button29->UseVisualStyleBackColor = true;
+			button30->UseVisualStyleBackColor = true;
+			button31->UseVisualStyleBackColor = true;
+			button32->UseVisualStyleBackColor = true;
+			button33->UseVisualStyleBackColor = true;
+			button34->UseVisualStyleBackColor = true;
+			button35->UseVisualStyleBackColor = true;
+			button36->UseVisualStyleBackColor = true;
+			button37->UseVisualStyleBackColor = true;
+			button38->UseVisualStyleBackColor = true;
+			button39->UseVisualStyleBackColor = true;
+			button40->UseVisualStyleBackColor = true;
+			button41->UseVisualStyleBackColor = true;
+			button42->UseVisualStyleBackColor = true;
+			button43->UseVisualStyleBackColor = true;
+			button44->UseVisualStyleBackColor = true;
+			button45->UseVisualStyleBackColor = true;
+			button46->UseVisualStyleBackColor = true;
+			button47->UseVisualStyleBackColor = true;
+			button48->UseVisualStyleBackColor = true;
+			button49->UseVisualStyleBackColor = true;
+			button50->UseVisualStyleBackColor = true;
+			button51->UseVisualStyleBackColor = true;
+			button52->UseVisualStyleBackColor = true;
+			button53->UseVisualStyleBackColor = true;
+			button54->UseVisualStyleBackColor = true;
+			button55->UseVisualStyleBackColor = true;
+			button56->UseVisualStyleBackColor = true;
+			button57->UseVisualStyleBackColor = true;
+			button58->UseVisualStyleBackColor = true;
+			button59->UseVisualStyleBackColor = true;
+			button60->UseVisualStyleBackColor = true;
+			button61->UseVisualStyleBackColor = true;
+			button62->UseVisualStyleBackColor = true;
+			button63->UseVisualStyleBackColor = true;
+			button64->UseVisualStyleBackColor = true;
+			button65->UseVisualStyleBackColor = true;
+			button66->UseVisualStyleBackColor = true;
+			button67->UseVisualStyleBackColor = true;
+			button68->UseVisualStyleBackColor = true;
+			button69->UseVisualStyleBackColor = true;
+			button70->UseVisualStyleBackColor = true;
+			button71->UseVisualStyleBackColor = true;
+			button72->UseVisualStyleBackColor = true;
+			button73->UseVisualStyleBackColor = true;
+			button74->UseVisualStyleBackColor = true;
+			button75->UseVisualStyleBackColor = true;
+			button76->UseVisualStyleBackColor = true;
+			button77->UseVisualStyleBackColor = true;
+			button78->UseVisualStyleBackColor = true;
+			button79->UseVisualStyleBackColor = true;
+			button80->UseVisualStyleBackColor = true;
+			button81->UseVisualStyleBackColor = true;
+			button82->UseVisualStyleBackColor = true;
+			button83->UseVisualStyleBackColor = true;
+			button84->UseVisualStyleBackColor = true;
+			button85->UseVisualStyleBackColor = true;
+			button86->UseVisualStyleBackColor = true;
+			button87->UseVisualStyleBackColor = true;
+			button88->UseVisualStyleBackColor = true;
+			button89->UseVisualStyleBackColor = true;
+			button90->UseVisualStyleBackColor = true;
+			button91->UseVisualStyleBackColor = true;
+			button92->UseVisualStyleBackColor = true;
+			button93->UseVisualStyleBackColor = true;
+			button94->UseVisualStyleBackColor = true;
+			button95->UseVisualStyleBackColor = true;
+			button96->UseVisualStyleBackColor = true;
+			button97->UseVisualStyleBackColor = true;
+			button98->UseVisualStyleBackColor = true;
+			button99->UseVisualStyleBackColor = true;
+			button100->UseVisualStyleBackColor = true;
 		}
 		private: System::Void quitToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
 			Form1::Close();
@@ -1838,12 +1990,6 @@ namespace CppCLR_WinformsProjekt {
 				} else if (cellValue == 0) {
 					button30->BackColor = BackColor.White;
 				}
-			} else if (buttonId == 20) {
-				if (cellValue == 1) {
-					button20->BackColor = BackColor.DarkRed;
-				} else if (cellValue == 0) {
-					button20->BackColor = BackColor.White;
-				}
 			} else if (buttonId == 31) {
 				if (cellValue == 1) {
 					button31->BackColor = BackColor.DarkRed;
@@ -1964,6 +2110,306 @@ namespace CppCLR_WinformsProjekt {
 				} else if (cellValue == 0) {
 					button50->BackColor = BackColor.White;
 				}
+			} else if (buttonId == 51) {
+				if (cellValue == 1) {
+					button51->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button51->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 52) {
+				if (cellValue == 1) {
+					button52->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button52->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 53) {
+				if (cellValue == 1) {
+					button53->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button53->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 54) {
+				if (cellValue == 1) {
+					button54->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button54->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 55) {
+				if (cellValue == 1) {
+					button55->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button55->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 56) {
+				if (cellValue == 1) {
+					button56->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button56->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 57) {
+				if (cellValue == 1) {
+					button57->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button57->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 58) {
+				if (cellValue == 1) {
+					button58->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button58->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 59) {
+				if (cellValue == 1) {
+					button59->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button59->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 60) {
+				if (cellValue == 1) {
+					button60->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button60->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 61) {
+				if (cellValue == 1) {
+					button61->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button61->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 62) {
+				if (cellValue == 1) {
+					button62->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button62->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 63) {
+				if (cellValue == 1) {
+					button63->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button63->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 64) {
+				if (cellValue == 1) {
+					button64->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button64->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 65) {
+				if (cellValue == 1) {
+					button65->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button65->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 66) {
+				if (cellValue == 1) {
+					button66->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button66->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 67) {
+				if (cellValue == 1) {
+					button67->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button67->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 68) {
+				if (cellValue == 1) {
+					button68->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button68->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 69) {
+				if (cellValue == 1) {
+					button69->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button69->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 70) {
+				if (cellValue == 1) {
+					button70->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button70->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 71) {
+				if (cellValue == 1) {
+					button71->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button71->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 72) {
+				if (cellValue == 1) {
+					button72->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button72->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 73) {
+				if (cellValue == 1) {
+					button73->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button73->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 74) {
+				if (cellValue == 1) {
+					button74->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button74->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 75) {
+				if (cellValue == 1) {
+					button75->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button75->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 76) {
+				if (cellValue == 1) {
+					button76->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button76->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 77) {
+				if (cellValue == 1) {
+					button77->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button77->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 78) {
+				if (cellValue == 1) {
+					button78->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button78->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 79) {
+				if (cellValue == 1) {
+					button79->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button79->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 80) {
+				if (cellValue == 1) {
+					button80->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button80->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 81) {
+				if (cellValue == 1) {
+					button81->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button81->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 82) {
+				if (cellValue == 1) {
+					button82->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button82->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 83) {
+				if (cellValue == 1) {
+					button83->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button83->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 84) {
+				if (cellValue == 1) {
+					button84->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button84->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 85) {
+				if (cellValue == 1) {
+					button85->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button85->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 86) {
+				if (cellValue == 1) {
+					button86->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button86->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 87) {
+				if (cellValue == 1) {
+					button87->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button87->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 88) {
+				if (cellValue == 1) {
+					button88->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button88->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 89) {
+				if (cellValue == 1) {
+					button89->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button89->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 90) {
+				if (cellValue == 1) {
+					button90->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button90->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 91) {
+				if (cellValue == 1) {
+					button91->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button91->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 92) {
+				if (cellValue == 1) {
+					button92->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button92->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 93) {
+				if (cellValue == 1) {
+					button93->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button93->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 94) {
+				if (cellValue == 1) {
+					button94->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button94->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 95) {
+				if (cellValue == 1) {
+					button95->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button95->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 96) {
+				if (cellValue == 1) {
+					button96->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button96->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 97) {
+				if (cellValue == 1) {
+					button97->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button97->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 98) {
+				if (cellValue == 1) {
+					button98->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button98->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 99) {
+				if (cellValue == 1) {
+					button99->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button99->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 100) {
+				if (cellValue == 1) {
+					button100->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button100->BackColor = BackColor.White;
+				}
 			}
 		}
 		void checkMine(int buttonId) {
@@ -2001,25 +2447,25 @@ namespace CppCLR_WinformsProjekt {
 			}
 
 			// now the columns
-			if (buttonId == 1 || buttonId == 2 || buttonId == 3 || buttonId == 4 || buttonId == 5 || buttonId == 6 || buttonId == 7 || buttonId == 8 || buttonId == 9 || buttonId == 10) {
+			if (buttonId == 1 || buttonId == 11 || buttonId == 21 || buttonId == 31 || buttonId == 41 || buttonId == 51 || buttonId == 61 || buttonId == 71 || buttonId == 81 || buttonId == 91) {
 				column = 0;
-			} else if (buttonId == 11 || buttonId == 12 || buttonId == 13 || buttonId == 14 || buttonId == 15 || buttonId == 16 || buttonId == 17 || buttonId == 18 || buttonId == 19 || buttonId == 20) {
+			} else if (buttonId == 2 || buttonId == 12 || buttonId == 22 || buttonId == 32 || buttonId == 42 || buttonId == 52 || buttonId == 62 || buttonId == 72 || buttonId == 82 || buttonId == 92) {
 				column = 1;
-			} else if (buttonId == 21 || buttonId == 22 || buttonId == 23 || buttonId == 24 || buttonId == 25 || buttonId == 26 || buttonId == 27 || buttonId == 28 || buttonId == 29 || buttonId == 30) {
+			} else if (buttonId == 3 || buttonId == 13 || buttonId == 23 || buttonId == 33 || buttonId == 43 || buttonId == 53 || buttonId == 63 || buttonId == 73 || buttonId == 83 || buttonId == 93) {
 				column = 2;
-			} else if (buttonId == 31 || buttonId == 32 || buttonId == 33 || buttonId == 34 || buttonId == 35 || buttonId == 36 || buttonId == 37 || buttonId == 38 || buttonId == 39 || buttonId == 40) {
+			} else if (buttonId == 4 || buttonId == 14 || buttonId == 24 || buttonId == 34 || buttonId == 44 || buttonId == 54 || buttonId == 64 || buttonId == 74 || buttonId == 84 || buttonId == 94) {
 				column = 3;
-			} else if (buttonId == 41 || buttonId == 42 || buttonId == 43 || buttonId == 44 || buttonId == 45 || buttonId == 46 || buttonId == 47 || buttonId == 48 || buttonId == 49 || buttonId == 50) {
+			} else if (buttonId == 5 || buttonId == 15 || buttonId == 25 || buttonId == 35 || buttonId == 45 || buttonId == 55 || buttonId == 65 || buttonId == 75 || buttonId == 85 || buttonId == 95) {
 				column = 4;
-			} else if (buttonId == 51 || buttonId == 52 || buttonId == 53 || buttonId == 54 || buttonId == 55 || buttonId == 56 || buttonId == 57 || buttonId == 58 || buttonId == 59 || buttonId == 60) {
+			} else if (buttonId == 6 || buttonId == 16 || buttonId == 26 || buttonId == 36 || buttonId == 46 || buttonId == 56 || buttonId == 66 || buttonId == 76 || buttonId == 86 || buttonId == 96) {
 				column = 5;
-			} else if (buttonId == 61 || buttonId == 62 || buttonId == 63 || buttonId == 64 || buttonId == 65 || buttonId == 66 || buttonId == 67 || buttonId == 68 || buttonId == 69 || buttonId == 70) {
+			} else if (buttonId == 7 || buttonId == 17 || buttonId == 27 || buttonId == 37 || buttonId == 47 || buttonId == 57 || buttonId == 67 || buttonId == 77 || buttonId == 87 || buttonId == 97) {
 				column = 6;
-			} else if (buttonId == 71 || buttonId == 72 || buttonId == 73 || buttonId == 74 || buttonId == 75 || buttonId == 76 || buttonId == 77 || buttonId == 78 || buttonId == 79 || buttonId == 80) {
+			} else if (buttonId == 8 || buttonId == 18 || buttonId == 28 || buttonId == 38 || buttonId == 48 || buttonId == 58 || buttonId == 68 || buttonId == 78 || buttonId == 88 || buttonId == 98) {
 				column = 7;
-			} else if (buttonId == 81 || buttonId == 82 || buttonId == 83 || buttonId == 84 || buttonId == 85 || buttonId == 86 || buttonId == 87 || buttonId == 88 || buttonId == 89 || buttonId == 90) {
+			} else if (buttonId == 9 || buttonId == 19 || buttonId == 29 || buttonId == 39 || buttonId == 49 || buttonId == 59 || buttonId == 69 || buttonId == 79 || buttonId == 89 || buttonId == 99) {
 				column = 8;
-			} else if (buttonId == 91 || buttonId == 92 || buttonId == 93 || buttonId == 94 || buttonId == 95 || buttonId == 96 || buttonId == 97 || buttonId == 98 || buttonId == 99 || buttonId == 100) {
+			} else if (buttonId == 10 || buttonId == 20 || buttonId == 30 || buttonId == 40 || buttonId == 50 || buttonId == 60 || buttonId == 70 || buttonId == 80 || buttonId == 90 || buttonId == 100) {
 				column = 9;
 			}
 
@@ -2189,5 +2635,155 @@ namespace CppCLR_WinformsProjekt {
 		private: System::Void button50_Click(System::Object^  sender, System::EventArgs^  e) {
 			checkMine(50);
 		}
-};
+		private: System::Void button51_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(51);
+		}
+		private: System::Void button52_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(52);
+		}
+		private: System::Void button53_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(53);
+		}
+		private: System::Void button54_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(54);
+		}
+		private: System::Void button55_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(55);
+		}
+		private: System::Void button56_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(56);
+		}
+		private: System::Void button57_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(57);
+		}
+		private: System::Void button58_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(58);
+		}
+		private: System::Void button59_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(59);
+		}
+		private: System::Void button60_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(60);
+		}
+		private: System::Void button61_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(61);
+		}
+		private: System::Void button62_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(62);
+		}
+		private: System::Void button63_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(63);
+		}
+		private: System::Void button64_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(64);
+		}
+		private: System::Void button65_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(65);
+		}
+		private: System::Void button66_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(66);
+		}
+		private: System::Void button67_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(67);
+		}
+		private: System::Void button68_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(68);
+		}
+		private: System::Void button69_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(69);
+		}
+		private: System::Void button70_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(70);
+		}
+		private: System::Void button71_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(71);
+		}
+		private: System::Void button72_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(72);
+		}
+		private: System::Void button73_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(73);
+		}
+		private: System::Void button74_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(74);
+		}
+		private: System::Void button75_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(75);
+		}
+		private: System::Void button76_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(76);
+		}
+		private: System::Void button77_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(77);
+		}
+		private: System::Void button78_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(78);
+		}
+		private: System::Void button79_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(79);
+		}
+		private: System::Void button80_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(80);
+		}
+		private: System::Void button81_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(81);
+		}
+		private: System::Void button82_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(82);
+		}
+		private: System::Void button83_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(83);
+		}
+		private: System::Void button84_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(84);
+		}
+		private: System::Void button85_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(85);
+		}
+		private: System::Void button86_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(86);
+		}
+		private: System::Void button87_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(87);
+		}
+		private: System::Void button88_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(88);
+		}
+		private: System::Void button89_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(89);
+		}
+		private: System::Void button90_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(90);
+		}
+		private: System::Void button91_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(91);
+		}
+		private: System::Void button92_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(92);
+		}
+		private: System::Void button93_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(93);
+		}
+		private: System::Void button94_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(94);
+		}
+		private: System::Void button95_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(95);
+		}
+		private: System::Void button96_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(96);
+		}
+		private: System::Void button97_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(97);
+		}
+		private: System::Void button98_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(98);
+		}
+		private: System::Void button99_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(99);
+		}
+		private: System::Void button100_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(100);
+		}
+	};
 }
