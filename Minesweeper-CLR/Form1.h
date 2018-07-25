@@ -2,10 +2,11 @@
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
+#include <string>
 
-//Global Array
+// Global array
 int theBoard[10][10] = { { 0 },{ 0 } };
-bool debugMode;
+bool debugMode = true;
 
 #pragma once
 
@@ -151,7 +152,7 @@ namespace CppCLR_WinformsProjekt {
 	private: System::Windows::Forms::Button^  button1;
 	private: System::Windows::Forms::Panel^  panel2;
 	private: System::Windows::Forms::Label^  label1;
-public: System::Windows::Forms::Label^  label2;
+	public: System::Windows::Forms::Label^  label2;
 
 	private:
 		/// <summary>
@@ -986,6 +987,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button50->TabIndex = 249;
 			this->button50->Text = L"button50";
 			this->button50->UseVisualStyleBackColor = true;
+			this->button50->Click += gcnew System::EventHandler(this, &Form1::button50_Click);
 			// 
 			// button49
 			// 
@@ -997,6 +999,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button49->TabIndex = 248;
 			this->button49->Text = L"button49";
 			this->button49->UseVisualStyleBackColor = true;
+			this->button49->Click += gcnew System::EventHandler(this, &Form1::button49_Click);
 			// 
 			// button48
 			// 
@@ -1008,6 +1011,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button48->TabIndex = 247;
 			this->button48->Text = L"button48";
 			this->button48->UseVisualStyleBackColor = true;
+			this->button48->Click += gcnew System::EventHandler(this, &Form1::button48_Click);
 			// 
 			// button47
 			// 
@@ -1019,6 +1023,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button47->TabIndex = 246;
 			this->button47->Text = L"button47";
 			this->button47->UseVisualStyleBackColor = true;
+			this->button47->Click += gcnew System::EventHandler(this, &Form1::button47_Click);
 			// 
 			// button46
 			// 
@@ -1030,6 +1035,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button46->TabIndex = 245;
 			this->button46->Text = L"button46";
 			this->button46->UseVisualStyleBackColor = true;
+			this->button46->Click += gcnew System::EventHandler(this, &Form1::button46_Click);
 			// 
 			// button45
 			// 
@@ -1041,6 +1047,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button45->TabIndex = 244;
 			this->button45->Text = L"button45";
 			this->button45->UseVisualStyleBackColor = true;
+			this->button45->Click += gcnew System::EventHandler(this, &Form1::button45_Click);
 			// 
 			// button44
 			// 
@@ -1052,6 +1059,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button44->TabIndex = 243;
 			this->button44->Text = L"button44";
 			this->button44->UseVisualStyleBackColor = true;
+			this->button44->Click += gcnew System::EventHandler(this, &Form1::button44_Click);
 			// 
 			// button43
 			// 
@@ -1063,6 +1071,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button43->TabIndex = 242;
 			this->button43->Text = L"button43";
 			this->button43->UseVisualStyleBackColor = true;
+			this->button43->Click += gcnew System::EventHandler(this, &Form1::button43_Click);
 			// 
 			// button42
 			// 
@@ -1074,6 +1083,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button42->TabIndex = 241;
 			this->button42->Text = L"button42";
 			this->button42->UseVisualStyleBackColor = true;
+			this->button42->Click += gcnew System::EventHandler(this, &Form1::button42_Click);
 			// 
 			// button41
 			// 
@@ -1085,6 +1095,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button41->TabIndex = 240;
 			this->button41->Text = L"button41";
 			this->button41->UseVisualStyleBackColor = true;
+			this->button41->Click += gcnew System::EventHandler(this, &Form1::button41_Click);
 			// 
 			// button40
 			// 
@@ -1096,6 +1107,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button40->TabIndex = 239;
 			this->button40->Text = L"button40";
 			this->button40->UseVisualStyleBackColor = true;
+			this->button40->Click += gcnew System::EventHandler(this, &Form1::button40_Click);
 			// 
 			// button39
 			// 
@@ -1107,6 +1119,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button39->TabIndex = 238;
 			this->button39->Text = L"button39";
 			this->button39->UseVisualStyleBackColor = true;
+			this->button39->Click += gcnew System::EventHandler(this, &Form1::button39_Click);
 			// 
 			// button38
 			// 
@@ -1118,6 +1131,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button38->TabIndex = 237;
 			this->button38->Text = L"button38";
 			this->button38->UseVisualStyleBackColor = true;
+			this->button38->Click += gcnew System::EventHandler(this, &Form1::button38_Click);
 			// 
 			// button37
 			// 
@@ -1129,6 +1143,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button37->TabIndex = 236;
 			this->button37->Text = L"button37";
 			this->button37->UseVisualStyleBackColor = true;
+			this->button37->Click += gcnew System::EventHandler(this, &Form1::button37_Click);
 			// 
 			// button36
 			// 
@@ -1140,6 +1155,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button36->TabIndex = 235;
 			this->button36->Text = L"button36";
 			this->button36->UseVisualStyleBackColor = true;
+			this->button36->Click += gcnew System::EventHandler(this, &Form1::button36_Click);
 			// 
 			// button35
 			// 
@@ -1151,6 +1167,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button35->TabIndex = 234;
 			this->button35->Text = L"button35";
 			this->button35->UseVisualStyleBackColor = true;
+			this->button35->Click += gcnew System::EventHandler(this, &Form1::button35_Click);
 			// 
 			// button34
 			// 
@@ -1162,6 +1179,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button34->TabIndex = 233;
 			this->button34->Text = L"button34";
 			this->button34->UseVisualStyleBackColor = true;
+			this->button34->Click += gcnew System::EventHandler(this, &Form1::button34_Click);
 			// 
 			// button33
 			// 
@@ -1173,6 +1191,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button33->TabIndex = 232;
 			this->button33->Text = L"button33";
 			this->button33->UseVisualStyleBackColor = true;
+			this->button33->Click += gcnew System::EventHandler(this, &Form1::button33_Click);
 			// 
 			// button32
 			// 
@@ -1184,6 +1203,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button32->TabIndex = 231;
 			this->button32->Text = L"button32";
 			this->button32->UseVisualStyleBackColor = true;
+			this->button32->Click += gcnew System::EventHandler(this, &Form1::button32_Click);
 			// 
 			// button31
 			// 
@@ -1195,6 +1215,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button31->TabIndex = 230;
 			this->button31->Text = L"button31";
 			this->button31->UseVisualStyleBackColor = true;
+			this->button31->Click += gcnew System::EventHandler(this, &Form1::button31_Click);
 			// 
 			// button30
 			// 
@@ -1206,6 +1227,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button30->TabIndex = 229;
 			this->button30->Text = L"button30";
 			this->button30->UseVisualStyleBackColor = true;
+			this->button30->Click += gcnew System::EventHandler(this, &Form1::button30_Click);
 			// 
 			// button29
 			// 
@@ -1217,6 +1239,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button29->TabIndex = 228;
 			this->button29->Text = L"button29";
 			this->button29->UseVisualStyleBackColor = true;
+			this->button29->Click += gcnew System::EventHandler(this, &Form1::button29_Click);
 			// 
 			// button28
 			// 
@@ -1228,6 +1251,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button28->TabIndex = 227;
 			this->button28->Text = L"button28";
 			this->button28->UseVisualStyleBackColor = true;
+			this->button28->Click += gcnew System::EventHandler(this, &Form1::button28_Click);
 			// 
 			// button27
 			// 
@@ -1239,6 +1263,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button27->TabIndex = 226;
 			this->button27->Text = L"button27";
 			this->button27->UseVisualStyleBackColor = true;
+			this->button27->Click += gcnew System::EventHandler(this, &Form1::button27_Click);
 			// 
 			// button26
 			// 
@@ -1250,6 +1275,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button26->TabIndex = 225;
 			this->button26->Text = L"button26";
 			this->button26->UseVisualStyleBackColor = true;
+			this->button26->Click += gcnew System::EventHandler(this, &Form1::button26_Click);
 			// 
 			// button25
 			// 
@@ -1261,6 +1287,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button25->TabIndex = 224;
 			this->button25->Text = L"button25";
 			this->button25->UseVisualStyleBackColor = true;
+			this->button25->Click += gcnew System::EventHandler(this, &Form1::button25_Click);
 			// 
 			// button24
 			// 
@@ -1272,6 +1299,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button24->TabIndex = 223;
 			this->button24->Text = L"button24";
 			this->button24->UseVisualStyleBackColor = true;
+			this->button24->Click += gcnew System::EventHandler(this, &Form1::button24_Click);
 			// 
 			// button23
 			// 
@@ -1283,6 +1311,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button23->TabIndex = 222;
 			this->button23->Text = L"button23";
 			this->button23->UseVisualStyleBackColor = true;
+			this->button23->Click += gcnew System::EventHandler(this, &Form1::button23_Click);
 			// 
 			// button22
 			// 
@@ -1294,6 +1323,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button22->TabIndex = 221;
 			this->button22->Text = L"button22";
 			this->button22->UseVisualStyleBackColor = true;
+			this->button22->Click += gcnew System::EventHandler(this, &Form1::button22_Click);
 			// 
 			// button21
 			// 
@@ -1305,6 +1335,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button21->TabIndex = 220;
 			this->button21->Text = L"button21";
 			this->button21->UseVisualStyleBackColor = true;
+			this->button21->Click += gcnew System::EventHandler(this, &Form1::button21_Click);
 			// 
 			// button20
 			// 
@@ -1316,6 +1347,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button20->TabIndex = 219;
 			this->button20->Text = L"button20";
 			this->button20->UseVisualStyleBackColor = true;
+			this->button20->Click += gcnew System::EventHandler(this, &Form1::button20_Click);
 			// 
 			// button19
 			// 
@@ -1327,6 +1359,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button19->TabIndex = 218;
 			this->button19->Text = L"button19";
 			this->button19->UseVisualStyleBackColor = true;
+			this->button19->Click += gcnew System::EventHandler(this, &Form1::button19_Click);
 			// 
 			// button18
 			// 
@@ -1338,6 +1371,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button18->TabIndex = 217;
 			this->button18->Text = L"button18";
 			this->button18->UseVisualStyleBackColor = true;
+			this->button18->Click += gcnew System::EventHandler(this, &Form1::button18_Click);
 			// 
 			// button17
 			// 
@@ -1349,6 +1383,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button17->TabIndex = 216;
 			this->button17->Text = L"button17";
 			this->button17->UseVisualStyleBackColor = true;
+			this->button17->Click += gcnew System::EventHandler(this, &Form1::button17_Click);
 			// 
 			// button16
 			// 
@@ -1360,6 +1395,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button16->TabIndex = 215;
 			this->button16->Text = L"button16";
 			this->button16->UseVisualStyleBackColor = true;
+			this->button16->Click += gcnew System::EventHandler(this, &Form1::button16_Click);
 			// 
 			// button15
 			// 
@@ -1371,6 +1407,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button15->TabIndex = 214;
 			this->button15->Text = L"button15";
 			this->button15->UseVisualStyleBackColor = true;
+			this->button15->Click += gcnew System::EventHandler(this, &Form1::button15_Click);
 			// 
 			// button14
 			// 
@@ -1382,6 +1419,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button14->TabIndex = 213;
 			this->button14->Text = L"button14";
 			this->button14->UseVisualStyleBackColor = true;
+			this->button14->Click += gcnew System::EventHandler(this, &Form1::button14_Click);
 			// 
 			// button13
 			// 
@@ -1393,6 +1431,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button13->TabIndex = 212;
 			this->button13->Text = L"button13";
 			this->button13->UseVisualStyleBackColor = true;
+			this->button13->Click += gcnew System::EventHandler(this, &Form1::button13_Click);
 			// 
 			// button12
 			// 
@@ -1404,6 +1443,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button12->TabIndex = 211;
 			this->button12->Text = L"button12";
 			this->button12->UseVisualStyleBackColor = true;
+			this->button12->Click += gcnew System::EventHandler(this, &Form1::button12_Click);
 			// 
 			// button11
 			// 
@@ -1415,6 +1455,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button11->TabIndex = 210;
 			this->button11->Text = L"button11";
 			this->button11->UseVisualStyleBackColor = true;
+			this->button11->Click += gcnew System::EventHandler(this, &Form1::button11_Click);
 			// 
 			// button10
 			// 
@@ -1426,6 +1467,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button10->TabIndex = 209;
 			this->button10->Text = L"button10";
 			this->button10->UseVisualStyleBackColor = true;
+			this->button10->Click += gcnew System::EventHandler(this, &Form1::button10_Click);
 			// 
 			// button9
 			// 
@@ -1437,6 +1479,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button9->TabIndex = 208;
 			this->button9->Text = L"button9";
 			this->button9->UseVisualStyleBackColor = true;
+			this->button9->Click += gcnew System::EventHandler(this, &Form1::button9_Click);
 			// 
 			// button8
 			// 
@@ -1448,6 +1491,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button8->TabIndex = 207;
 			this->button8->Text = L"button8";
 			this->button8->UseVisualStyleBackColor = true;
+			this->button8->Click += gcnew System::EventHandler(this, &Form1::button8_Click);
 			// 
 			// button7
 			// 
@@ -1459,6 +1503,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button7->TabIndex = 206;
 			this->button7->Text = L"button7";
 			this->button7->UseVisualStyleBackColor = true;
+			this->button7->Click += gcnew System::EventHandler(this, &Form1::button7_Click);
 			// 
 			// button6
 			// 
@@ -1470,6 +1515,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button6->TabIndex = 205;
 			this->button6->Text = L"button6";
 			this->button6->UseVisualStyleBackColor = true;
+			this->button6->Click += gcnew System::EventHandler(this, &Form1::button6_Click);
 			// 
 			// button5
 			// 
@@ -1481,6 +1527,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button5->TabIndex = 204;
 			this->button5->Text = L"button5";
 			this->button5->UseVisualStyleBackColor = true;
+			this->button5->Click += gcnew System::EventHandler(this, &Form1::button5_Click);
 			// 
 			// button4
 			// 
@@ -1492,6 +1539,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button4->TabIndex = 203;
 			this->button4->Text = L"button4";
 			this->button4->UseVisualStyleBackColor = true;
+			this->button4->Click += gcnew System::EventHandler(this, &Form1::button4_Click);
 			// 
 			// button3
 			// 
@@ -1503,6 +1551,7 @@ public: System::Windows::Forms::Label^  label2;
 			this->button3->TabIndex = 202;
 			this->button3->Text = L"button3";
 			this->button3->UseVisualStyleBackColor = true;
+			this->button3->Click += gcnew System::EventHandler(this, &Form1::button3_Click);
 			// 
 			// button2
 			// 
@@ -1606,35 +1655,539 @@ public: System::Windows::Forms::Label^  label2;
 		private: System::Void newGameToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
 			newGame();
 		}
+		private: void changeButton(int buttonId, int cellValue) {
+			// this function changes the button's background colour and text based on its buttonId and cellValue
 
-		private: void checkMine(int buttonId) {
-
+			if (buttonId == 1) {
+				if (cellValue == 1) { // there's a mine under the clicked cell
+					button1->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button1->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 2) {
+				if (cellValue == 1) {
+					button2->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button2->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 3) {
+				if (cellValue == 1) {
+					button3->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button3->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 4) {
+				if (cellValue == 1) {
+					button4->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button4->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 5) {
+				if (cellValue == 1) {
+					button5->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button5->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 6) {
+				if (cellValue == 1) {
+					button6->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button6->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 7) {
+				if (cellValue == 1) {
+					button7->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button7->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 8) {
+				if (cellValue == 1) {
+					button8->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button8->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 9) {
+				if (cellValue == 1) {
+					button9->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button9->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 10) {
+				if (cellValue == 1) {
+					button10->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button10->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 11) {
+				if (cellValue == 1) {
+					button11->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button11->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 12) {
+				if (cellValue == 1) {
+					button12->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button12->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 13) {
+				if (cellValue == 1) {
+					button13->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button13->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 14) {
+				if (cellValue == 1) {
+					button14->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button14->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 15) {
+				if (cellValue == 1) {
+					button15->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button15->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 16) {
+				if (cellValue == 1) {
+					button16->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button16->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 17) {
+				if (cellValue == 1) {
+					button17->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button17->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 18) {
+				if (cellValue == 1) {
+					button18->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button18->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 19) {
+				if (cellValue == 1) {
+					button19->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button19->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 20) {
+				if (cellValue == 1) {
+					button20->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button20->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 21) {
+				if (cellValue == 1) {
+					button21->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button21->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 22) {
+				if (cellValue == 1) {
+					button22->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button22->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 23) {
+				if (cellValue == 1) {
+					button23->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button23->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 24) {
+				if (cellValue == 1) {
+					button24->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button24->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 25) {
+				if (cellValue == 1) {
+					button25->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button25->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 26) {
+				if (cellValue == 1) {
+					button26->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button26->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 27) {
+				if (cellValue == 1) {
+					button27->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button27->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 28) {
+				if (cellValue == 1) {
+					button28->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button28->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 29) {
+				if (cellValue == 1) {
+					button29->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button29->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 30) {
+				if (cellValue == 1) {
+					button30->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button30->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 20) {
+				if (cellValue == 1) {
+					button20->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button20->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 31) {
+				if (cellValue == 1) {
+					button31->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button31->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 32) {
+				if (cellValue == 1) {
+					button32->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button32->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 33) {
+				if (cellValue == 1) {
+					button33->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button33->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 34) {
+				if (cellValue == 1) {
+					button34->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button34->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 35) {
+				if (cellValue == 1) {
+					button35->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button35->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 36) {
+				if (cellValue == 1) {
+					button36->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button36->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 37) {
+				if (cellValue == 1) {
+					button37->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button37->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 38) {
+				if (cellValue == 1) {
+					button38->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button38->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 39) {
+				if (cellValue == 1) {
+					button39->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button39->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 40) {
+				if (cellValue == 1) {
+					button40->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button40->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 41) {
+				if (cellValue == 1) {
+					button41->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button41->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 42) {
+				if (cellValue == 1) {
+					button42->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button42->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 43) {
+				if (cellValue == 1) {
+					button43->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button43->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 44) {
+				if (cellValue == 1) {
+					button44->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button44->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 45) {
+				if (cellValue == 1) {
+					button45->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button45->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 46) {
+				if (cellValue == 1) {
+					button46->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button46->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 47) {
+				if (cellValue == 1) {
+					button47->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button47->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 48) {
+				if (cellValue == 1) {
+					button48->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button48->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 49) {
+				if (cellValue == 1) {
+					button49->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button49->BackColor = BackColor.White;
+				}
+			} else if (buttonId == 50) {
+				if (cellValue == 1) {
+					button50->BackColor = BackColor.DarkRed;
+				} else if (cellValue == 0) {
+					button50->BackColor = BackColor.White;
+				}
+			}
 		}
+		void checkMine(int buttonId) {
 
-private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
-	if (debugMode) { // if debug mode is enabled, tell the user what button was clicked
-		MessageBox::Show("button1 clicked");
-	}
+			if (debugMode) { // if debug mode is enabled, tell the user which button in the grid was clicked
+				MessageBox::Show(this, "button" + buttonId + "clicked", "MinesweeperCLR");
+			}
 
-	int value = 0;
-	value = theBoard[0][0]; // theBoard is a 10x10 grid, hence the first [] represents the row and the second [] represents the column in the 2D array.
-	if (value == 1) { // If the value of the underlying cell of the button (relative to the grid) is 9, then the player has hit a mine and it's game over
-		button1->BackColor = BackColor.DarkRed;
-		MessageBox::Show("Game over");
-	} else {
-		// otherwise, the player hasn't hit a mine, so clear that cell
-		button1->Text = "";
-		button1->BackColor = BackColor.White;
+			int cellValue = 0;
+			int row = 0;
+			int column = 0;
 
-		if (debugMode) {
-			MessageBox::Show("Debug: Ok");
+			// convert the buttonId into coordinates
+			// first the rows
+			if (buttonId > 0 && buttonId < 11) { // if the buttonId is between 1 and 10, it's on row 0.
+				row = 0;
+			} else if (buttonId > 10 && buttonId < 21) {
+				row = 1;
+			} else if (buttonId > 20 && buttonId < 31) {
+				row = 2;
+			} else if (buttonId > 30 && buttonId < 41) {
+				row = 3;
+			} else if (buttonId > 40 && buttonId < 51) {
+				row = 4;
+			} else if (buttonId > 50 && buttonId < 61) {
+				row = 5;
+			} else if (buttonId > 60 && buttonId < 71) {
+				row = 6;
+			} else if (buttonId > 70 && buttonId < 81) {
+				row = 7;
+			} else if (buttonId > 80 && buttonId < 91) {
+				row = 8;
+			} else if (buttonId > 90) {
+				row = 9;
+			}
+
+			// now the columns
+			if (buttonId == 1 || buttonId == 2 || buttonId == 3 || buttonId == 4 || buttonId == 5 || buttonId == 6 || buttonId == 7 || buttonId == 8 || buttonId == 9 || buttonId == 10) {
+				column = 0;
+			} else if (buttonId == 11 || buttonId == 12 || buttonId == 13 || buttonId == 14 || buttonId == 15 || buttonId == 16 || buttonId == 17 || buttonId == 18 || buttonId == 19 || buttonId == 20) {
+				column = 1;
+			} else if (buttonId == 21 || buttonId == 22 || buttonId == 23 || buttonId == 24 || buttonId == 25 || buttonId == 26 || buttonId == 27 || buttonId == 28 || buttonId == 29 || buttonId == 30) {
+				column = 2;
+			} else if (buttonId == 31 || buttonId == 32 || buttonId == 33 || buttonId == 34 || buttonId == 35 || buttonId == 36 || buttonId == 37 || buttonId == 38 || buttonId == 39 || buttonId == 40) {
+				column = 3;
+			} else if (buttonId == 41 || buttonId == 42 || buttonId == 43 || buttonId == 44 || buttonId == 45 || buttonId == 46 || buttonId == 47 || buttonId == 48 || buttonId == 49 || buttonId == 50) {
+				column = 4;
+			} else if (buttonId == 51 || buttonId == 52 || buttonId == 53 || buttonId == 54 || buttonId == 55 || buttonId == 56 || buttonId == 57 || buttonId == 58 || buttonId == 59 || buttonId == 60) {
+				column = 5;
+			} else if (buttonId == 61 || buttonId == 62 || buttonId == 63 || buttonId == 64 || buttonId == 65 || buttonId == 66 || buttonId == 67 || buttonId == 68 || buttonId == 69 || buttonId == 70) {
+				column = 6;
+			} else if (buttonId == 71 || buttonId == 72 || buttonId == 73 || buttonId == 74 || buttonId == 75 || buttonId == 76 || buttonId == 77 || buttonId == 78 || buttonId == 79 || buttonId == 80) {
+				column = 7;
+			} else if (buttonId == 81 || buttonId == 82 || buttonId == 83 || buttonId == 84 || buttonId == 85 || buttonId == 86 || buttonId == 87 || buttonId == 88 || buttonId == 89 || buttonId == 90) {
+				column = 8;
+			} else if (buttonId == 91 || buttonId == 92 || buttonId == 93 || buttonId == 94 || buttonId == 95 || buttonId == 96 || buttonId == 97 || buttonId == 98 || buttonId == 99 || buttonId == 100) {
+				column = 9;
+			}
+
+			// now we have the coordinates of the cell based on the buttonId, check what value is in that cell under the button and react accordingly:
+			//  - if the cell value is 9, it is a mine and the player looses for hitting a mine
+			//  - if the cell value is 0, there are no mines nearby and there is no mine in the cell
+			//  - if the cell value is between 1 and 8 inclusive, the cell does not contain a mine however there are x mines nearby
+			cellValue = theBoard[row][column];
+
+			if (debugMode) {
+				MessageBox::Show("theBoard[" + row + "][" + column + "]: " + theBoard[row][column]);
+			}
+
+			changeButton(buttonId, cellValue); // parse the cellValue and buttonId over to changeButton()
+
+			if (cellValue == 1) { // there's a mine under the clicked cell
+				MessageBox::Show("Game over");
+			}
 		}
-	}
-	//Form1::button1->Text = "1";
-	//Form1::button1->BackColor = BackColor.Red;
-}
-private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
-}
-
+		private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(1);
+		}
+		private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(2);
+		}
+		private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(3);
+		}
+		private: System::Void button4_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(4);
+		}
+		private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(5);
+		}
+		private: System::Void button6_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(6);
+		}
+		private: System::Void button7_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(7);
+		}
+		private: System::Void button8_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(8);
+		}
+		private: System::Void button9_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(9);
+		}
+		private: System::Void button10_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(10);
+		}
+		private: System::Void button11_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(11);
+		}
+		private: System::Void button12_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(12);
+		}
+		private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(13);
+		}
+		private: System::Void button14_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(14);
+		}
+		private: System::Void button15_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(15);
+		}
+		private: System::Void button16_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(16);
+		}
+		private: System::Void button17_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(17);
+		}
+		private: System::Void button18_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(18);
+		}
+		private: System::Void button19_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(19);
+		}
+		private: System::Void button20_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(20);
+		}
+		private: System::Void button21_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(21);
+		}
+		private: System::Void button22_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(22);
+		}
+		private: System::Void button23_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(23);
+		}
+		private: System::Void button24_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(24);
+		}
+		private: System::Void button25_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(25);
+		}
+		private: System::Void button26_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(26);
+		}
+		private: System::Void button27_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(27);
+		}
+		private: System::Void button28_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(28);
+		}
+		private: System::Void button29_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(29);
+		}
+		private: System::Void button30_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(30);
+		}
+		private: System::Void button31_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(31);
+		}
+		private: System::Void button32_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(32);
+		}
+		private: System::Void button33_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(33);
+		}
+		private: System::Void button34_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(34);
+		}
+		private: System::Void button35_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(35);
+		}
+		private: System::Void button36_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(36);
+		}
+		private: System::Void button37_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(37);
+		}
+		private: System::Void button38_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(38);
+		}
+		private: System::Void button39_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(39);
+		}
+		private: System::Void button40_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(40);
+		}
+		private: System::Void button41_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(41);
+		}
+		private: System::Void button42_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(42);
+		}
+		private: System::Void button43_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(43);
+		}
+		private: System::Void button44_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(44);
+		}
+		private: System::Void button45_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(45);
+		}
+		private: System::Void button46_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(46);
+		}
+		private: System::Void button47_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(47);
+		}
+		private: System::Void button48_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(48);
+		}
+		private: System::Void button49_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(49);
+		}
+		private: System::Void button50_Click(System::Object^  sender, System::EventArgs^  e) {
+			checkMine(50);
+		}
 };
 }
