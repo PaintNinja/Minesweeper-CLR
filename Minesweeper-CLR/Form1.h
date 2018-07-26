@@ -1924,8 +1924,10 @@ private:
 			if (buttonId == 1) {
 				if (cellValue == 9) { // there's a mine under the clicked cell
 					button1->BackColor = BackColor.DarkRed;
+					button1->Text = "X";
 				} else if (cellValue == 0) {
 					button1->BackColor = BackColor.White;
+					button1->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button1->BackColor = BackColor.Yellow;
 					button1->Text = "2";
@@ -1936,8 +1938,10 @@ private:
 			} else if (buttonId == 2) {
 				if (cellValue == 9) {
 					button2->BackColor = BackColor.DarkRed;
+					button2->Text = "X";
 				} else if (cellValue == 0) {
 					button2->BackColor = BackColor.White;
+					button2->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button2->BackColor = BackColor.Yellow;
 					button2->Text = "2";
@@ -1948,8 +1952,10 @@ private:
 			} else if (buttonId == 3) {
 				if (cellValue == 9) {
 					button3->BackColor = BackColor.DarkRed;
+					button3->Text = "X";
 				} else if (cellValue == 0) {
 					button3->BackColor = BackColor.White;
+					button3->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button3->BackColor = BackColor.Yellow;
 					button3->Text = "2";
@@ -1960,8 +1966,10 @@ private:
 			} else if (buttonId == 4) {
 				if (cellValue == 9) {
 					button4->BackColor = BackColor.DarkRed;
+					button4->Text = "X";
 				} else if (cellValue == 0) {
 					button4->BackColor = BackColor.White;
+					button4->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button4->BackColor = BackColor.Yellow;
 					button4->Text = "2";
@@ -1972,8 +1980,10 @@ private:
 			} else if (buttonId == 5) {
 				if (cellValue == 9) {
 					button5->BackColor = BackColor.DarkRed;
+					button5->Text = "X";
 				} else if (cellValue == 0) {
 					button5->BackColor = BackColor.White;
+					button5->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button5->BackColor = BackColor.Yellow;
 					button5->Text = "2";
@@ -1984,8 +1994,10 @@ private:
 			} else if (buttonId == 6) {
 				if (cellValue == 9) {
 					button6->BackColor = BackColor.DarkRed;
+					button6->Text = "X";
 				} else if (cellValue == 0) {
 					button6->BackColor = BackColor.White;
+					button6->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button6->BackColor = BackColor.Yellow;
 					button6->Text = "2";
@@ -1996,8 +2008,10 @@ private:
 			} else if (buttonId == 7) {
 				if (cellValue == 9) {
 					button7->BackColor = BackColor.DarkRed;
+					button7->Text = "X";
 				} else if (cellValue == 0) {
 					button7->BackColor = BackColor.White;
+					button7->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button7->BackColor = BackColor.Yellow;
 					button7->Text = "2";
@@ -2008,8 +2022,10 @@ private:
 			} else if (buttonId == 8) {
 				if (cellValue == 9) {
 					button8->BackColor = BackColor.DarkRed;
+					button8->Text = "X";
 				} else if (cellValue == 0) {
 					button8->BackColor = BackColor.White;
+					button8->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button8->BackColor = BackColor.Yellow;
 					button8->Text = "2";
@@ -2020,8 +2036,10 @@ private:
 			} else if (buttonId == 9) {
 				if (cellValue == 9) {
 					button9->BackColor = BackColor.DarkRed;
+					button9->Text = "X";
 				} else if (cellValue == 0) {
 					button9->BackColor = BackColor.White;
+					button9->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button9->BackColor = BackColor.Yellow;
 					button9->Text = "2";
@@ -2032,20 +2050,24 @@ private:
 			} else if (buttonId == 10) {
 				if (cellValue == 9) {
 					button10->BackColor = BackColor.DarkRed;
+					button10->Text = "X";
 				} else if (cellValue == 0) {
-					button10->BackColor = BackColor.White;
+					button10->BackColor = BackColor.White; 
+					button10->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
-					button1->BackColor = BackColor.Yellow;
-					button1->Text = "2";
+					button10->BackColor = BackColor.Yellow;
+					button10->Text = "2";
 				} else if (cellValue > 2) {
-					button1->BackColor = BackColor.Orange;
-					button1->Text = cellValue.ToString();
+					button10->BackColor = BackColor.Orange;
+					button10->Text = cellValue.ToString();
 				}
 			} else if (buttonId == 11) {
 				if (cellValue == 9) {
-					button11->BackColor = BackColor.DarkRed;
+					button11->BackColor = BackColor.DarkRed; 
+					button11->Text = "X";
 				} else if (cellValue == 0) {
-					button11->BackColor = BackColor.White;
+					button11->BackColor = BackColor.White; 
+					button11->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button11->BackColor = BackColor.Yellow;
 					button11->Text = "2";
@@ -2055,9 +2077,11 @@ private:
 				}
 			} else if (buttonId == 12) {
 				if (cellValue == 9) {
-					button12->BackColor = BackColor.DarkRed;
+					button12->BackColor = BackColor.DarkRed; 
+					button12->Text = "X";
 				} else if (cellValue == 0) {
-					button12->BackColor = BackColor.White;
+					button12->BackColor = BackColor.White; 
+					button12->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button12->BackColor = BackColor.Yellow;
 					button12->Text = "2";
@@ -2067,9 +2091,11 @@ private:
 				}
 			} else if (buttonId == 13) {
 				if (cellValue == 9) {
-					button13->BackColor = BackColor.DarkRed;
+					button13->BackColor = BackColor.DarkRed; 
+					button13->Text = "X";
 				} else if (cellValue == 0) {
-					button13->BackColor = BackColor.White;
+					button13->BackColor = BackColor.White; 
+					button13->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button13->BackColor = BackColor.Yellow;
 					button13->Text = "2";
@@ -2079,9 +2105,11 @@ private:
 				}
 			} else if (buttonId == 14) {
 				if (cellValue == 9) {
-					button14->BackColor = BackColor.DarkRed;
+					button14->BackColor = BackColor.DarkRed; 
+					button14->Text = "X";
 				} else if (cellValue == 0) {
-					button14->BackColor = BackColor.White;
+					button14->BackColor = BackColor.White; 
+					button14->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button14->BackColor = BackColor.Yellow;
 					button14->Text = "2";
@@ -2091,9 +2119,11 @@ private:
 				}
 			} else if (buttonId == 15) {
 				if (cellValue == 9) {
-					button15->BackColor = BackColor.DarkRed;
+					button15->BackColor = BackColor.DarkRed; 
+					button15->Text = "X";
 				} else if (cellValue == 0) {
-					button15->BackColor = BackColor.White;
+					button15->BackColor = BackColor.White; 
+					button15->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button15->BackColor = BackColor.Yellow;
 					button15->Text = "2";
@@ -2103,9 +2133,11 @@ private:
 				}
 			} else if (buttonId == 16) {
 				if (cellValue == 9) {
-					button16->BackColor = BackColor.DarkRed;
+					button16->BackColor = BackColor.DarkRed; 
+					button16->Text = "X";
 				} else if (cellValue == 0) {
-					button16->BackColor = BackColor.White;
+					button16->BackColor = BackColor.White; 
+					button16->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button16->BackColor = BackColor.Yellow;
 					button16->Text = "2";
@@ -2115,9 +2147,11 @@ private:
 				}
 			} else if (buttonId == 17) {
 				if (cellValue == 9) {
-					button17->BackColor = BackColor.DarkRed;
+					button17->BackColor = BackColor.DarkRed; 
+					button17->Text = "X";
 				} else if (cellValue == 0) {
-					button17->BackColor = BackColor.White;
+					button17->BackColor = BackColor.White; 
+					button17->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button17->BackColor = BackColor.Yellow;
 					button17->Text = "2";
@@ -2127,9 +2161,11 @@ private:
 				}
 			} else if (buttonId == 18) {
 				if (cellValue == 9) {
-					button18->BackColor = BackColor.DarkRed;
+					button18->BackColor = BackColor.DarkRed; 
+					button18->Text = "X";
 				} else if (cellValue == 0) {
-					button18->BackColor = BackColor.White;
+					button18->BackColor = BackColor.White; 
+					button18->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button18->BackColor = BackColor.Yellow;
 					button18->Text = "2";
@@ -2139,9 +2175,11 @@ private:
 				}
 			} else if (buttonId == 19) {
 				if (cellValue == 9) {
-					button19->BackColor = BackColor.DarkRed;
+					button19->BackColor = BackColor.DarkRed; 
+					button19->Text = "X";
 				} else if (cellValue == 0) {
-					button19->BackColor = BackColor.White;
+					button19->BackColor = BackColor.White; 
+					button19->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button19->BackColor = BackColor.Yellow;
 					button19->Text = "2";
@@ -2151,9 +2189,11 @@ private:
 				}
 			} else if (buttonId == 20) {
 				if (cellValue == 9) {
-					button20->BackColor = BackColor.DarkRed;
+					button20->BackColor = BackColor.DarkRed; 
+					button20->Text = "X";
 				} else if (cellValue == 0) {
-					button20->BackColor = BackColor.White;
+					button20->BackColor = BackColor.White; 
+					button20->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button20->BackColor = BackColor.Yellow;
 					button20->Text = "2";
@@ -2163,9 +2203,11 @@ private:
 				}
 			} else if (buttonId == 21) {
 				if (cellValue == 9) {
-					button21->BackColor = BackColor.DarkRed;
+					button21->BackColor = BackColor.DarkRed; 
+					button21->Text = "X";
 				} else if (cellValue == 0) {
-					button21->BackColor = BackColor.White;
+					button21->BackColor = BackColor.White; 
+					button21->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button21->BackColor = BackColor.Yellow;
 					button21->Text = "2";
@@ -2175,9 +2217,11 @@ private:
 				}
 			} else if (buttonId == 22) {
 				if (cellValue == 9) {
-					button22->BackColor = BackColor.DarkRed;
+					button22->BackColor = BackColor.DarkRed; 
+					button22->Text = "X";
 				} else if (cellValue == 0) {
-					button22->BackColor = BackColor.White;
+					button22->BackColor = BackColor.White; 
+					button22->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button22->BackColor = BackColor.Yellow;
 					button22->Text = "2";
@@ -2187,9 +2231,11 @@ private:
 				}
 			} else if (buttonId == 23) {
 				if (cellValue == 9) {
-					button23->BackColor = BackColor.DarkRed;
+					button23->BackColor = BackColor.DarkRed; 
+					button23->Text = "X";
 				} else if (cellValue == 0) {
-					button23->BackColor = BackColor.White;
+					button23->BackColor = BackColor.White; 
+					button23->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button23->BackColor = BackColor.Yellow;
 					button23->Text = "2";
@@ -2199,9 +2245,11 @@ private:
 				}
 			} else if (buttonId == 24) {
 				if (cellValue == 9) {
-					button24->BackColor = BackColor.DarkRed;
+					button24->BackColor = BackColor.DarkRed; 
+					button24->Text = "X";
 				} else if (cellValue == 0) {
-					button24->BackColor = BackColor.White;
+					button24->BackColor = BackColor.White; 
+					button24->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button24->BackColor = BackColor.Yellow;
 					button24->Text = "2";
@@ -2211,9 +2259,11 @@ private:
 				}
 			} else if (buttonId == 25) {
 				if (cellValue == 9) {
-					button25->BackColor = BackColor.DarkRed;
+					button25->BackColor = BackColor.DarkRed; 
+					button25->Text = "X";
 				} else if (cellValue == 0) {
-					button25->BackColor = BackColor.White;
+					button25->BackColor = BackColor.White; 
+					button25->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button25->BackColor = BackColor.Yellow;
 					button25->Text = "2";
@@ -2223,9 +2273,11 @@ private:
 				}
 			} else if (buttonId == 26) {
 				if (cellValue == 9) {
-					button26->BackColor = BackColor.DarkRed;
+					button26->BackColor = BackColor.DarkRed; 
+					button26->Text = "X";
 				} else if (cellValue == 0) {
-					button26->BackColor = BackColor.White;
+					button26->BackColor = BackColor.White; 
+					button26->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button26->BackColor = BackColor.Yellow;
 					button26->Text = "2";
@@ -2235,9 +2287,11 @@ private:
 				}
 			} else if (buttonId == 27) {
 				if (cellValue == 9) {
-					button27->BackColor = BackColor.DarkRed;
+					button27->BackColor = BackColor.DarkRed; 
+					button27->Text = "X";
 				} else if (cellValue == 0) {
 					button27->BackColor = BackColor.White;
+					button27->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button27->BackColor = BackColor.Yellow;
 					button27->Text = "2";
@@ -2247,9 +2301,11 @@ private:
 				}
 			} else if (buttonId == 28) {
 				if (cellValue == 9) {
-					button28->BackColor = BackColor.DarkRed;
+					button28->BackColor = BackColor.DarkRed; 
+					button28->Text = "X";
 				} else if (cellValue == 0) {
-					button28->BackColor = BackColor.White;
+					button28->BackColor = BackColor.White; 
+					button28->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button28->BackColor = BackColor.Yellow;
 					button28->Text = "2";
@@ -2260,8 +2316,10 @@ private:
 			} else if (buttonId == 29) {
 				if (cellValue == 9) {
 					button29->BackColor = BackColor.DarkRed;
+					button29->Text = "X";
 				} else if (cellValue == 0) {
-					button29->BackColor = BackColor.White;
+					button29->BackColor = BackColor.White; 
+					button29->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button29->BackColor = BackColor.Yellow;
 					button29->Text = "2";
@@ -2271,9 +2329,11 @@ private:
 				}
 			} else if (buttonId == 30) {
 				if (cellValue == 9) {
-					button30->BackColor = BackColor.DarkRed;
+					button30->BackColor = BackColor.DarkRed; 
+					button30->Text = "X";
 				} else if (cellValue == 0) {
-					button30->BackColor = BackColor.White;
+					button30->BackColor = BackColor.White; 
+					button30->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button30->BackColor = BackColor.Yellow;
 					button30->Text = "2";
@@ -2284,8 +2344,10 @@ private:
 			} else if (buttonId == 31) {
 				if (cellValue == 9) {
 					button31->BackColor = BackColor.DarkRed;
+					button31->Text = "X";
 				} else if (cellValue == 0) {
-					button31->BackColor = BackColor.White;
+					button31->BackColor = BackColor.White; 
+					button31->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button31->BackColor = BackColor.Yellow;
 					button31->Text = "2";
@@ -2295,9 +2357,11 @@ private:
 				}
 			} else if (buttonId == 32) {
 				if (cellValue == 9) {
-					button32->BackColor = BackColor.DarkRed;
+					button32->BackColor = BackColor.DarkRed; 
+					button32->Text = "X";
 				} else if (cellValue == 0) {
 					button32->BackColor = BackColor.White;
+					button32->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button32->BackColor = BackColor.Yellow;
 					button32->Text = "2";
@@ -2307,9 +2371,11 @@ private:
 				}
 			} else if (buttonId == 33) {
 				if (cellValue == 9) {
-					button33->BackColor = BackColor.DarkRed;
+					button33->BackColor = BackColor.DarkRed; 
+					button33->Text = "X";
 				} else if (cellValue == 0) {
-					button33->BackColor = BackColor.White;
+					button33->BackColor = BackColor.White; 
+					button33->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button33->BackColor = BackColor.Yellow;
 					button33->Text = "2";
@@ -2319,9 +2385,11 @@ private:
 				}
 			} else if (buttonId == 34) {
 				if (cellValue == 9) {
-					button34->BackColor = BackColor.DarkRed;
+					button34->BackColor = BackColor.DarkRed; 
+					button34->Text = "X";
 				} else if (cellValue == 0) {
-					button34->BackColor = BackColor.White;
+					button34->BackColor = BackColor.White; 
+					button34->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button34->BackColor = BackColor.Yellow;
 					button34->Text = "2";
@@ -2332,8 +2400,10 @@ private:
 			} else if (buttonId == 35) {
 				if (cellValue == 9) {
 					button35->BackColor = BackColor.DarkRed;
+					button35->Text = "X";
 				} else if (cellValue == 0) {
 					button35->BackColor = BackColor.White;
+					button35->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button35->BackColor = BackColor.Yellow;
 					button35->Text = "2";
@@ -2343,9 +2413,11 @@ private:
 				}
 			} else if (buttonId == 36) {
 				if (cellValue == 9) {
-					button36->BackColor = BackColor.DarkRed;
+					button36->BackColor = BackColor.DarkRed; 
+					button36->Text = "X";
 				} else if (cellValue == 0) {
 					button36->BackColor = BackColor.White;
+					button36->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button36->BackColor = BackColor.Yellow;
 					button36->Text = "2";
@@ -2356,8 +2428,10 @@ private:
 			} else if (buttonId == 37) {
 				if (cellValue == 9) {
 					button37->BackColor = BackColor.DarkRed;
+					button37->Text = "X";
 				} else if (cellValue == 0) {
-					button37->BackColor = BackColor.White;
+					button37->BackColor = BackColor.White; 
+					button37->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button37->BackColor = BackColor.Yellow;
 					button37->Text = "2";
@@ -2367,9 +2441,11 @@ private:
 				}
 			} else if (buttonId == 38) {
 				if (cellValue == 9) {
-					button38->BackColor = BackColor.DarkRed;
+					button38->BackColor = BackColor.DarkRed; 
+					button38->Text = "X";
 				} else if (cellValue == 0) {
 					button38->BackColor = BackColor.White;
+					button38->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button38->BackColor = BackColor.Yellow;
 					button38->Text = "2";
@@ -2379,9 +2455,11 @@ private:
 				}
 			} else if (buttonId == 39) {
 				if (cellValue == 9) {
-					button39->BackColor = BackColor.DarkRed;
+					button39->BackColor = BackColor.DarkRed; 
+					button39->Text = "X";
 				} else if (cellValue == 0) {
 					button39->BackColor = BackColor.White;
+					button39->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button39->BackColor = BackColor.Yellow;
 					button39->Text = "2";
@@ -2391,9 +2469,11 @@ private:
 				}
 			} else if (buttonId == 40) {
 				if (cellValue == 9) {
-					button40->BackColor = BackColor.DarkRed;
+					button40->BackColor = BackColor.DarkRed; 
+					button40->Text = "X";
 				} else if (cellValue == 0) {
-					button40->BackColor = BackColor.White;
+					button40->BackColor = BackColor.White; 
+					button40->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button40->BackColor = BackColor.Yellow;
 					button40->Text = "2";
@@ -2403,9 +2483,11 @@ private:
 				}
 			} else if (buttonId == 41) {
 				if (cellValue == 9) {
-					button41->BackColor = BackColor.DarkRed;
+					button41->BackColor = BackColor.DarkRed; 
+					button41->Text = "X";
 				} else if (cellValue == 0) {
-					button41->BackColor = BackColor.White;
+					button41->BackColor = BackColor.White; 
+					button41->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button41->BackColor = BackColor.Yellow;
 					button41->Text = "2";
@@ -2415,9 +2497,11 @@ private:
 				}
 			} else if (buttonId == 42) {
 				if (cellValue == 9) {
-					button42->BackColor = BackColor.DarkRed;
+					button42->BackColor = BackColor.DarkRed; 
+					button42->Text = "X";
 				} else if (cellValue == 0) {
-					button42->BackColor = BackColor.White;
+					button42->BackColor = BackColor.White; 
+					button42->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button42->BackColor = BackColor.Yellow;
 					button42->Text = "2";
@@ -2427,9 +2511,11 @@ private:
 				}
 			} else if (buttonId == 43) {
 				if (cellValue == 9) {
-					button43->BackColor = BackColor.DarkRed;
+					button43->BackColor = BackColor.DarkRed; 
+					button43->Text = "X";
 				} else if (cellValue == 0) {
-					button43->BackColor = BackColor.White;
+					button43->BackColor = BackColor.White; 
+					button43->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button43->BackColor = BackColor.Yellow;
 					button43->Text = "2";
@@ -2440,8 +2526,10 @@ private:
 			} else if (buttonId == 44) {
 				if (cellValue == 9) {
 					button44->BackColor = BackColor.DarkRed;
+					button44->Text = "X";
 				} else if (cellValue == 0) {
-					button44->BackColor = BackColor.White;
+					button44->BackColor = BackColor.White; 
+					button44->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button44->BackColor = BackColor.Yellow;
 					button44->Text = "2";
@@ -2452,8 +2540,10 @@ private:
 			} else if (buttonId == 45) {
 				if (cellValue == 9) {
 					button45->BackColor = BackColor.DarkRed;
+					button45->Text = "X";
 				} else if (cellValue == 0) {
-					button45->BackColor = BackColor.White;
+					button45->BackColor = BackColor.White; 
+					button45->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button45->BackColor = BackColor.Yellow;
 					button45->Text = "2";
@@ -2464,8 +2554,10 @@ private:
 			} else if (buttonId == 46) {
 				if (cellValue == 9) {
 					button46->BackColor = BackColor.DarkRed;
+					button46->Text = "X";
 				} else if (cellValue == 0) {
-					button46->BackColor = BackColor.White;
+					button46->BackColor = BackColor.White; 
+					button46->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button46->BackColor = BackColor.Yellow;
 					button46->Text = "2";
@@ -2476,8 +2568,10 @@ private:
 			} else if (buttonId == 47) {
 				if (cellValue == 9) {
 					button47->BackColor = BackColor.DarkRed;
+					button47->Text = "X";
 				} else if (cellValue == 0) {
 					button47->BackColor = BackColor.White;
+					button47->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button47->BackColor = BackColor.Yellow;
 					button47->Text = "2";
@@ -2487,9 +2581,11 @@ private:
 				}
 			} else if (buttonId == 48) {
 				if (cellValue == 9) {
-					button48->BackColor = BackColor.DarkRed;
+					button48->BackColor = BackColor.DarkRed; 
+					button48->Text = "X";
 				} else if (cellValue == 0) {
-					button48->BackColor = BackColor.White;
+					button48->BackColor = BackColor.White; 
+					button48->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button48->BackColor = BackColor.Yellow;
 					button48->Text = "2";
@@ -2500,8 +2596,10 @@ private:
 			} else if (buttonId == 49) {
 				if (cellValue == 9) {
 					button49->BackColor = BackColor.DarkRed;
+					button49->Text = "X";
 				} else if (cellValue == 0) {
-					button49->BackColor = BackColor.White;
+					button49->BackColor = BackColor.White; 
+					button49->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button49->BackColor = BackColor.Yellow;
 					button49->Text = "2";
@@ -2512,8 +2610,10 @@ private:
 			} else if (buttonId == 50) {
 				if (cellValue == 9) {
 					button50->BackColor = BackColor.DarkRed;
+					button50->Text = "X";
 				} else if (cellValue == 0) {
-					button50->BackColor = BackColor.White;
+					button50->BackColor = BackColor.White; 
+					button50->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button50->BackColor = BackColor.Yellow;
 					button50->Text = "2";
@@ -2524,8 +2624,10 @@ private:
 			} else if (buttonId == 51) {
 				if (cellValue == 9) {
 					button51->BackColor = BackColor.DarkRed;
+					button51->Text = "X";
 				} else if (cellValue == 0) {
 					button51->BackColor = BackColor.White;
+					button51->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button51->BackColor = BackColor.Yellow;
 					button51->Text = "2";
@@ -2536,8 +2638,10 @@ private:
 			} else if (buttonId == 52) {
 				if (cellValue == 9) {
 					button52->BackColor = BackColor.DarkRed;
+					button52->Text = "X";
 				} else if (cellValue == 0) {
 					button52->BackColor = BackColor.White;
+					button52->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button52->BackColor = BackColor.Yellow;
 					button52->Text = "2";
@@ -2548,8 +2652,10 @@ private:
 			} else if (buttonId == 53) {
 				if (cellValue == 9) {
 					button53->BackColor = BackColor.DarkRed;
+					button53->Text = "X";
 				} else if (cellValue == 0) {
 					button53->BackColor = BackColor.White;
+					button53->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button53->BackColor = BackColor.Yellow;
 					button53->Text = "2";
@@ -2560,8 +2666,10 @@ private:
 			} else if (buttonId == 54) {
 				if (cellValue == 9) {
 					button54->BackColor = BackColor.DarkRed;
+					button54->Text = "X";
 				} else if (cellValue == 0) {
 					button54->BackColor = BackColor.White;
+					button54->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button54->BackColor = BackColor.Yellow;
 					button54->Text = "2";
@@ -2572,8 +2680,10 @@ private:
 			} else if (buttonId == 55) {
 				if (cellValue == 9) {
 					button55->BackColor = BackColor.DarkRed;
+					button55->Text = "X";
 				} else if (cellValue == 0) {
-					button55->BackColor = BackColor.White;
+					button55->BackColor = BackColor.White; 
+					button55->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button55->BackColor = BackColor.Yellow;
 					button55->Text = "2";
@@ -2584,8 +2694,10 @@ private:
 			} else if (buttonId == 56) {
 				if (cellValue == 9) {
 					button56->BackColor = BackColor.DarkRed;
+					button56->Text = "X";
 				} else if (cellValue == 0) {
-					button56->BackColor = BackColor.White;
+					button56->BackColor = BackColor.White; 
+					button56->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button56->BackColor = BackColor.Yellow;
 					button56->Text = "2";
@@ -2595,9 +2707,11 @@ private:
 				}
 			} else if (buttonId == 57) {
 				if (cellValue == 9) {
-					button57->BackColor = BackColor.DarkRed;
+					button57->BackColor = BackColor.DarkRed; 
+					button57->Text = "X";
 				} else if (cellValue == 0) {
-					button57->BackColor = BackColor.White;
+					button57->BackColor = BackColor.White; 
+					button57->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button57->BackColor = BackColor.Yellow;
 					button57->Text = "2";
@@ -2607,9 +2721,11 @@ private:
 				}
 			} else if (buttonId == 58) {
 				if (cellValue == 9) {
-					button58->BackColor = BackColor.DarkRed;
+					button58->BackColor = BackColor.DarkRed; 
+					button58->Text = "X";
 				} else if (cellValue == 0) {
 					button58->BackColor = BackColor.White;
+					button58->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button58->BackColor = BackColor.Yellow;
 					button58->Text = "2";
@@ -2619,9 +2735,11 @@ private:
 				}
 			} else if (buttonId == 59) {
 				if (cellValue == 9) {
-					button59->BackColor = BackColor.DarkRed;
+					button59->BackColor = BackColor.DarkRed; 
+					button59->Text = "X";
 				} else if (cellValue == 0) {
-					button59->BackColor = BackColor.White;
+					button59->BackColor = BackColor.White; 
+					button59->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button59->BackColor = BackColor.Yellow;
 					button59->Text = "2";
@@ -2631,9 +2749,11 @@ private:
 				}
 			} else if (buttonId == 60) {
 				if (cellValue == 9) {
-					button60->BackColor = BackColor.DarkRed;
+					button60->BackColor = BackColor.DarkRed; 
+					button60->Text = "X";
 				} else if (cellValue == 0) {
-					button60->BackColor = BackColor.White;
+					button60->BackColor = BackColor.White; 
+					button60->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button60->BackColor = BackColor.Yellow;
 					button60->Text = "2";
@@ -2644,8 +2764,10 @@ private:
 			} else if (buttonId == 61) {
 				if (cellValue == 9) {
 					button61->BackColor = BackColor.DarkRed;
+					button61->Text = "X";
 				} else if (cellValue == 0) {
-					button61->BackColor = BackColor.White;
+					button61->BackColor = BackColor.White; 
+					button61->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button61->BackColor = BackColor.Yellow;
 					button61->Text = "2";
@@ -2655,9 +2777,11 @@ private:
 				}
 			} else if (buttonId == 62) {
 				if (cellValue == 9) {
-					button62->BackColor = BackColor.DarkRed;
+					button62->BackColor = BackColor.DarkRed; 
+					button62->Text = "X";
 				} else if (cellValue == 0) {
-					button62->BackColor = BackColor.White;
+					button62->BackColor = BackColor.White; 
+					button62->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button62->BackColor = BackColor.Yellow;
 					button62->Text = "2";
@@ -2667,9 +2791,11 @@ private:
 				}
 			} else if (buttonId == 63) {
 				if (cellValue == 9) {
-					button63->BackColor = BackColor.DarkRed;
+					button63->BackColor = BackColor.DarkRed; 
+					button63->Text = "X";
 				} else if (cellValue == 0) {
-					button63->BackColor = BackColor.White;
+					button63->BackColor = BackColor.White; 
+					button63->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button63->BackColor = BackColor.Yellow;
 					button63->Text = "2";
@@ -2679,9 +2805,11 @@ private:
 				}
 			} else if (buttonId == 64) {
 				if (cellValue == 9) {
-					button64->BackColor = BackColor.DarkRed;
+					button64->BackColor = BackColor.DarkRed; 
+					button64->Text = "X";
 				} else if (cellValue == 0) {
-					button64->BackColor = BackColor.White;
+					button64->BackColor = BackColor.White; 
+					button64->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button64->BackColor = BackColor.Yellow;
 					button64->Text = "2";
@@ -2691,9 +2819,11 @@ private:
 				}
 			} else if (buttonId == 65) {
 				if (cellValue == 9) {
-					button65->BackColor = BackColor.DarkRed;
+					button65->BackColor = BackColor.DarkRed; 
+					button65->Text = "X";
 				} else if (cellValue == 0) {
-					button65->BackColor = BackColor.White;
+					button65->BackColor = BackColor.White; 
+					button65->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button65->BackColor = BackColor.Yellow;
 					button65->Text = "2";
@@ -2703,9 +2833,11 @@ private:
 				}
 			} else if (buttonId == 66) {
 				if (cellValue == 9) {
-					button66->BackColor = BackColor.DarkRed;
+					button66->BackColor = BackColor.DarkRed; 
+					button66->Text = "X";
 				} else if (cellValue == 0) {
-					button66->BackColor = BackColor.White;
+					button66->BackColor = BackColor.White; 
+					button66->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button66->BackColor = BackColor.Yellow;
 					button66->Text = "2";
@@ -2715,9 +2847,11 @@ private:
 				}
 			} else if (buttonId == 67) {
 				if (cellValue == 9) {
-					button67->BackColor = BackColor.DarkRed;
+					button67->BackColor = BackColor.DarkRed; 
+					button67->Text = "X";
 				} else if (cellValue == 0) {
 					button67->BackColor = BackColor.White;
+					button67->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button67->BackColor = BackColor.Yellow;
 					button67->Text = "2";
@@ -2728,8 +2862,10 @@ private:
 			} else if (buttonId == 68) {
 				if (cellValue == 9) {
 					button68->BackColor = BackColor.DarkRed;
+					button68->Text = "X";
 				} else if (cellValue == 0) {
-					button68->BackColor = BackColor.White;
+					button68->BackColor = BackColor.White; 
+					button68->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button68->BackColor = BackColor.Yellow;
 					button68->Text = "2";
@@ -2740,8 +2876,10 @@ private:
 			} else if (buttonId == 69) {
 				if (cellValue == 9) {
 					button69->BackColor = BackColor.DarkRed;
+					button69->Text = "X";
 				} else if (cellValue == 0) {
 					button69->BackColor = BackColor.White;
+					button69->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button69->BackColor = BackColor.Yellow;
 					button69->Text = "2";
@@ -2752,8 +2890,10 @@ private:
 			} else if (buttonId == 70) {
 				if (cellValue == 9) {
 					button70->BackColor = BackColor.DarkRed;
+					button70->Text = "X";
 				} else if (cellValue == 0) {
 					button70->BackColor = BackColor.White;
+					button70->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button70->BackColor = BackColor.Yellow;
 					button70->Text = "2";
@@ -2763,9 +2903,11 @@ private:
 				}
 			} else if (buttonId == 71) {
 				if (cellValue == 9) {
-					button71->BackColor = BackColor.DarkRed;
+					button71->BackColor = BackColor.DarkRed; 
+					button71->Text = "X";
 				} else if (cellValue == 0) {
-					button71->BackColor = BackColor.White;
+					button71->BackColor = BackColor.White; 
+					button71->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button71->BackColor = BackColor.Yellow;
 					button71->Text = "2";
@@ -2775,9 +2917,11 @@ private:
 				}
 			} else if (buttonId == 72) {
 				if (cellValue == 9) {
-					button72->BackColor = BackColor.DarkRed;
+					button72->BackColor = BackColor.DarkRed; 
+					button72->Text = "X";
 				} else if (cellValue == 0) {
-					button72->BackColor = BackColor.White;
+					button72->BackColor = BackColor.White; 
+					button72->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button72->BackColor = BackColor.Yellow;
 					button72->Text = "2";
@@ -2788,8 +2932,10 @@ private:
 			} else if (buttonId == 73) {
 				if (cellValue == 9) {
 					button73->BackColor = BackColor.DarkRed;
+					button73->Text = "X";
 				} else if (cellValue == 0) {
-					button73->BackColor = BackColor.White;
+					button73->BackColor = BackColor.White; 
+					button73->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button73->BackColor = BackColor.Yellow;
 					button73->Text = "2";
@@ -2799,9 +2945,11 @@ private:
 				}
 			} else if (buttonId == 74) {
 				if (cellValue == 9) {
-					button74->BackColor = BackColor.DarkRed;
+					button74->BackColor = BackColor.DarkRed; 
+					button74->Text = "X";
 				} else if (cellValue == 0) {
 					button74->BackColor = BackColor.White;
+					button74->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button74->BackColor = BackColor.Yellow;
 					button74->Text = "2";
@@ -2812,8 +2960,10 @@ private:
 			} else if (buttonId == 75) {
 				if (cellValue == 9) {
 					button75->BackColor = BackColor.DarkRed;
+					button75->Text = "X";
 				} else if (cellValue == 0) {
-					button75->BackColor = BackColor.White;
+					button75->BackColor = BackColor.White; 
+					button75->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button75->BackColor = BackColor.Yellow;
 					button75->Text = "2";
@@ -2824,8 +2974,10 @@ private:
 			} else if (buttonId == 76) {
 				if (cellValue == 9) {
 					button76->BackColor = BackColor.DarkRed;
+					button76->Text = "X";
 				} else if (cellValue == 0) {
 					button76->BackColor = BackColor.White;
+					button76->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button76->BackColor = BackColor.Yellow;
 					button76->Text = "2";
@@ -2835,9 +2987,11 @@ private:
 				}
 			} else if (buttonId == 77) {
 				if (cellValue == 9) {
-					button77->BackColor = BackColor.DarkRed;
+					button77->BackColor = BackColor.DarkRed; 
+					button77->Text = "X";
 				} else if (cellValue == 0) {
-					button77->BackColor = BackColor.White;
+					button77->BackColor = BackColor.White; 
+					button77->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button77->BackColor = BackColor.Yellow;
 					button77->Text = "2";
@@ -2847,9 +3001,11 @@ private:
 				}
 			} else if (buttonId == 78) {
 				if (cellValue == 9) {
-					button78->BackColor = BackColor.DarkRed;
+					button78->BackColor = BackColor.DarkRed; 
+					button78->Text = "X";
 				} else if (cellValue == 0) {
-					button78->BackColor = BackColor.White;
+					button78->BackColor = BackColor.White; 
+					button78->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button78->BackColor = BackColor.Yellow;
 					button78->Text = "2";
@@ -2860,8 +3016,10 @@ private:
 			} else if (buttonId == 79) {
 				if (cellValue == 9) {
 					button79->BackColor = BackColor.DarkRed;
+					button79->Text = "X";
 				} else if (cellValue == 0) {
 					button79->BackColor = BackColor.White;
+					button79->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button79->BackColor = BackColor.Yellow;
 					button79->Text = "2";
@@ -2872,8 +3030,10 @@ private:
 			} else if (buttonId == 80) {
 				if (cellValue == 9) {
 					button80->BackColor = BackColor.DarkRed;
+					button80->Text = "X";
 				} else if (cellValue == 0) {
-					button80->BackColor = BackColor.White;
+					button80->BackColor = BackColor.White; 
+					button80->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button80->BackColor = BackColor.Yellow;
 					button80->Text = "2";
@@ -2883,9 +3043,11 @@ private:
 				}
 			} else if (buttonId == 81) {
 				if (cellValue == 9) {
-					button81->BackColor = BackColor.DarkRed;
+					button81->BackColor = BackColor.DarkRed; 
+					button81->Text = "X";
 				} else if (cellValue == 0) {
-					button81->BackColor = BackColor.White;
+					button81->BackColor = BackColor.White; 
+					button81->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button81->BackColor = BackColor.Yellow;
 					button81->Text = "2";
@@ -2895,9 +3057,11 @@ private:
 				}
 			} else if (buttonId == 82) {
 				if (cellValue == 9) {
-					button82->BackColor = BackColor.DarkRed;
+					button82->BackColor = BackColor.DarkRed; 
+					button82->Text = "X";
 				} else if (cellValue == 0) {
-					button82->BackColor = BackColor.White;
+					button82->BackColor = BackColor.White; 
+					button82->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button82->BackColor = BackColor.Yellow;
 					button82->Text = "2";
@@ -2907,9 +3071,11 @@ private:
 				}
 			} else if (buttonId == 83) {
 				if (cellValue == 9) {
-					button83->BackColor = BackColor.DarkRed;
+					button83->BackColor = BackColor.DarkRed; 
+					button83->Text = "X";
 				} else if (cellValue == 0) {
-					button83->BackColor = BackColor.White;
+					button83->BackColor = BackColor.White; 
+					button83->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button83->BackColor = BackColor.Yellow;
 					button83->Text = "2";
@@ -2919,9 +3085,11 @@ private:
 				}
 			} else if (buttonId == 84) {
 				if (cellValue == 9) {
-					button84->BackColor = BackColor.DarkRed;
+					button84->BackColor = BackColor.DarkRed; 
+					button84->Text = "X";
 				} else if (cellValue == 0) {
 					button84->BackColor = BackColor.White;
+					button84->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button84->BackColor = BackColor.Yellow;
 					button84->Text = "2";
@@ -2931,9 +3099,11 @@ private:
 				}
 			} else if (buttonId == 85) {
 				if (cellValue == 9) {
-					button85->BackColor = BackColor.DarkRed;
+					button85->BackColor = BackColor.DarkRed; 
+					button85->Text = "X";
 				} else if (cellValue == 0) {
-					button85->BackColor = BackColor.White;
+					button85->BackColor = BackColor.White; 
+					button85->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button85->BackColor = BackColor.Yellow;
 					button85->Text = "2";
@@ -2943,9 +3113,11 @@ private:
 				}
 			} else if (buttonId == 86) {
 				if (cellValue == 9) {
-					button86->BackColor = BackColor.DarkRed;
+					button86->BackColor = BackColor.DarkRed; 
+					button86->Text = "X";
 				} else if (cellValue == 0) {
-					button86->BackColor = BackColor.White;
+					button86->BackColor = BackColor.White; 
+					button86->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button86->BackColor = BackColor.Yellow;
 					button86->Text = "2";
@@ -2955,9 +3127,11 @@ private:
 				}
 			} else if (buttonId == 87) {
 				if (cellValue == 9) {
-					button87->BackColor = BackColor.DarkRed;
+					button87->BackColor = BackColor.DarkRed; 
+					button87->Text = "X";
 				} else if (cellValue == 0) {
 					button87->BackColor = BackColor.White;
+					button87->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button87->BackColor = BackColor.Yellow;
 					button87->Text = "2";
@@ -2967,9 +3141,11 @@ private:
 				}
 			} else if (buttonId == 88) {
 				if (cellValue == 9) {
-					button88->BackColor = BackColor.DarkRed;
+					button88->BackColor = BackColor.DarkRed; 
+					button88->Text = "X";
 				} else if (cellValue == 0) {
-					button88->BackColor = BackColor.White;
+					button88->BackColor = BackColor.White; 
+					button88->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button88->BackColor = BackColor.Yellow;
 					button88->Text = "2";
@@ -2979,9 +3155,11 @@ private:
 				}
 			} else if (buttonId == 89) {
 				if (cellValue == 9) {
-					button89->BackColor = BackColor.DarkRed;
+					button89->BackColor = BackColor.DarkRed; 
+					button89->Text = "X";
 				} else if (cellValue == 0) {
-					button89->BackColor = BackColor.White;
+					button89->BackColor = BackColor.White; 
+					button89->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button89->BackColor = BackColor.Yellow;
 					button89->Text = "2";
@@ -2991,9 +3169,11 @@ private:
 				}
 			} else if (buttonId == 90) {
 				if (cellValue == 9) {
-					button90->BackColor = BackColor.DarkRed;
+					button90->BackColor = BackColor.DarkRed; 
+					button90->Text = "X";
 				} else if (cellValue == 0) {
-					button90->BackColor = BackColor.White;
+					button90->BackColor = BackColor.White; 
+					button90->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button90->BackColor = BackColor.Yellow;
 					button90->Text = "2";
@@ -3003,9 +3183,11 @@ private:
 				}
 			} else if (buttonId == 91) {
 				if (cellValue == 9) {
-					button91->BackColor = BackColor.DarkRed;
+					button91->BackColor = BackColor.DarkRed; 
+					button91->Text = "X";
 				} else if (cellValue == 0) {
-					button91->BackColor = BackColor.White;
+					button91->BackColor = BackColor.White; 
+					button91->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button91->BackColor = BackColor.Yellow;
 					button91->Text = "2";
@@ -3015,9 +3197,11 @@ private:
 				}
 			} else if (buttonId == 92) {
 				if (cellValue == 9) {
-					button92->BackColor = BackColor.DarkRed;
+					button92->BackColor = BackColor.DarkRed; 
+					button92->Text = "X";
 				} else if (cellValue == 0) {
-					button92->BackColor = BackColor.White;
+					button92->BackColor = BackColor.White; 
+					button92->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button92->BackColor = BackColor.Yellow;
 					button92->Text = "2";
@@ -3027,9 +3211,11 @@ private:
 				}
 			} else if (buttonId == 93) {
 				if (cellValue == 9) {
-					button93->BackColor = BackColor.DarkRed;
+					button93->BackColor = BackColor.DarkRed; 
+					button93->Text = "X";
 				} else if (cellValue == 0) {
-					button93->BackColor = BackColor.White;
+					button93->BackColor = BackColor.White; 
+					button93->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button93->BackColor = BackColor.Yellow;
 					button93->Text = "2";
@@ -3039,9 +3225,11 @@ private:
 				}
 			} else if (buttonId == 94) {
 				if (cellValue == 9) {
-					button94->BackColor = BackColor.DarkRed;
+					button94->BackColor = BackColor.DarkRed; 
+					button94->Text = "X";
 				} else if (cellValue == 0) {
-					button94->BackColor = BackColor.White;
+					button94->BackColor = BackColor.White; 
+					button94->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button94->BackColor = BackColor.Yellow;
 					button94->Text = "2";
@@ -3051,9 +3239,11 @@ private:
 				}
 			} else if (buttonId == 95) {
 				if (cellValue == 9) {
-					button95->BackColor = BackColor.DarkRed;
+					button95->BackColor = BackColor.DarkRed; 
+					button95->Text = "X";
 				} else if (cellValue == 0) {
-					button95->BackColor = BackColor.White;
+					button95->BackColor = BackColor.White; 
+					button95->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button95->BackColor = BackColor.Yellow;
 					button95->Text = "2";
@@ -3064,8 +3254,10 @@ private:
 			} else if (buttonId == 96) {
 				if (cellValue == 9) {
 					button96->BackColor = BackColor.DarkRed;
+					button96->Text = "X";
 				} else if (cellValue == 0) {
-					button96->BackColor = BackColor.White;
+					button96->BackColor = BackColor.White; 
+					button96->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button96->BackColor = BackColor.Yellow;
 					button96->Text = "2";
@@ -3076,8 +3268,10 @@ private:
 			} else if (buttonId == 97) {
 				if (cellValue == 9) {
 					button97->BackColor = BackColor.DarkRed;
+					button97->Text = "X";
 				} else if (cellValue == 0) {
 					button97->BackColor = BackColor.White;
+					button97->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button97->BackColor = BackColor.Yellow;
 					button97->Text = "2";
@@ -3088,8 +3282,10 @@ private:
 			} else if (buttonId == 98) {
 				if (cellValue == 9) {
 					button98->BackColor = BackColor.DarkRed;
+					button98->Text = "X";
 				} else if (cellValue == 0) {
 					button98->BackColor = BackColor.White;
+					button98->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button98->BackColor = BackColor.Yellow;
 					button98->Text = "2";
@@ -3100,8 +3296,10 @@ private:
 			} else if (buttonId == 99) {
 				if (cellValue == 9) {
 					button99->BackColor = BackColor.DarkRed;
+					button99->Text = "X";
 				} else if (cellValue == 0) {
 					button99->BackColor = BackColor.White;
+					button99->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button99->BackColor = BackColor.Yellow;
 					button99->Text = "2";
@@ -3112,8 +3310,10 @@ private:
 			} else if (buttonId == 100) {
 				if (cellValue == 9) {
 					button100->BackColor = BackColor.DarkRed;
+					button100->Text = "X";
 				} else if (cellValue == 0) {
 					button100->BackColor = BackColor.White;
+					button100->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button100->BackColor = BackColor.Yellow;
 					button100->Text = "2";
