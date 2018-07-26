@@ -7,6 +7,7 @@
 // Global array
 int theBoard[10][10] = { { 0 },{ 0 } };
 bool debugMode = false;
+int score = 0;
 
 #pragma once
 
@@ -151,7 +152,8 @@ namespace CppCLR_WinformsProjekt {
 	private: System::Windows::Forms::Button^  button2;
 	private: System::Windows::Forms::Button^  button1;
 	private: System::Windows::Forms::Panel^  panel2;
-	private: System::Windows::Forms::Label^  label1;
+private: System::Windows::Forms::Label^  scoreLabel;
+
 public: System::Windows::Forms::Label^  statusLabel;
 private:
 
@@ -276,7 +278,7 @@ private:
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->panel2 = (gcnew System::Windows::Forms::Panel());
 			this->statusLabel = (gcnew System::Windows::Forms::Label());
-			this->label1 = (gcnew System::Windows::Forms::Label());
+			this->scoreLabel = (gcnew System::Windows::Forms::Label());
 			this->menuStrip1->SuspendLayout();
 			this->panel1->SuspendLayout();
 			this->panel2->SuspendLayout();
@@ -1633,7 +1635,7 @@ private:
 			// panel2
 			// 
 			this->panel2->Controls->Add(this->statusLabel);
-			this->panel2->Controls->Add(this->label1);
+			this->panel2->Controls->Add(this->scoreLabel);
 			this->panel2->Dock = System::Windows::Forms::DockStyle::Fill;
 			this->panel2->Location = System::Drawing::Point(0, 24);
 			this->panel2->Name = L"panel2";
@@ -1651,16 +1653,16 @@ private:
 			this->statusLabel->TabIndex = 1;
 			this->statusLabel->Text = L"Status:";
 			// 
-			// label1
+			// scoreLabel
 			// 
-			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->scoreLabel->AutoSize = true;
+			this->scoreLabel->Font = (gcnew System::Drawing::Font(L"Segoe UI", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->label1->Location = System::Drawing::Point(12, 19);
-			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(52, 21);
-			this->label1->TabIndex = 0;
-			this->label1->Text = L"Score:";
+			this->scoreLabel->Location = System::Drawing::Point(12, 19);
+			this->scoreLabel->Name = L"scoreLabel";
+			this->scoreLabel->Size = System::Drawing::Size(52, 21);
+			this->scoreLabel->TabIndex = 0;
+			this->scoreLabel->Text = L"Score:";
 			// 
 			// Form1
 			// 
@@ -1688,6 +1690,9 @@ private:
 		void newGame() {
 			std::cout << "test" << std::endl;
 			statusLabel->Text = "Status: Alive";
+
+			// reset the score so that it's ready for the next game
+			score = 0;
 
 			// https://www.tutorialspoint.com/cplusplus/cpp_multi_dimensional_arrays.htm
 			// https://stackoverflow.com/questions/39009172/initializing-a-2d-array-with-random-numbers
@@ -3387,6 +3392,8 @@ private:
 
 			// first, check the surrounding 8 cells for mines and count them. If the cellValue is currently zero, add the count to the cellValue so that the user knows there are x mines nearby
 			int surroundingMinesCount = 0;
+			int points;
+			points = 0;
 			if (theBoard[row][column] != 9) {
 				if (row > 0 && column > 0 && row < 9 && column < 9) {
 					// we are within the grid's boundaries with at least a one cell border
@@ -3459,6 +3466,8 @@ private:
 					if (theBoard[row - 1][column - 1] == 9) {
 						surroundingMinesCount++;
 					}
+
+					points = surroundingMinesCount;
 				} else if (row > 0 && column == 0 && row < 9) {
 					// we have space to check for mines above the cell, but the cell is on the far left of the board so we cannot check the left side of the cell as there's no cells to the left of this one
 
@@ -3508,6 +3517,8 @@ private:
 					if (theBoard[row - 1][column + 1] == 9) {
 						surroundingMinesCount++;
 					}
+
+					points = surroundingMinesCount;
 				} else if (row == 9 && column == 0) {
 					// we have space to check for mines above the cell, but the cell is on the far bottom left corner of the board so we cannot check the left and bottom sides of the cell as there's no cells there
 
@@ -3540,6 +3551,8 @@ private:
 					if (theBoard[row - 1][column + 1] == 9) {
 						surroundingMinesCount++;
 					}
+
+					points = surroundingMinesCount;
 				} else if (row > 0 && column == 9 && row < 9) {
 					// we have space to check for mines above the cell, but the cell is on the far right of the board so we cannot check the right side of the cell as there's no cells to the right of this one
 
@@ -3589,6 +3602,8 @@ private:
 					if (theBoard[row - 1][column - 1] == 9) {
 						surroundingMinesCount++;
 					}
+
+					points = surroundingMinesCount;
 				} else if (row == 9 && column == 9) {
 					// we have space to check for mines above the cell, but the cell is on the far bottom right corner of the board so we cannot check the right and bottom sides of the cell as there's no cells there
 
@@ -3653,6 +3668,8 @@ private:
 					if (theBoard[row + 1][column + 1] == 9) {
 						surroundingMinesCount++;
 					}
+
+					points = surroundingMinesCount;
 				} else if (row == 0 && column == 9) {
 					// top right corner
 
@@ -3685,6 +3702,8 @@ private:
 					if (theBoard[row + 1][column - 1] == 9) {
 						surroundingMinesCount++;
 					}
+
+					points = surroundingMinesCount;
 				} else if (row == 0 && column > 0 && column < 9) {
 					// top row minus the top corners
 
@@ -3729,6 +3748,8 @@ private:
 					if (theBoard[row + 1][column - 1] == 9) {
 						surroundingMinesCount++;
 					}
+
+					points = surroundingMinesCount;
 				} else if (row == 9 && column > 0 && column < 9) {
 					// bottom row minus the bottom corners
 
@@ -3773,9 +3794,12 @@ private:
 					if (theBoard[row - 1][column - 1] == 9) {
 						surroundingMinesCount++;
 					}
+
+					points = surroundingMinesCount;
 				}
 			} else {
 				surroundingMinesCount = 9;
+				points = 0;
 			}
 
 			// now, set this cell's value to the surroundingMinesCount. The surroundingMinesCount will be 0 if no surrounding mines are found, and left as 9 if this cell is a mine. Numbers 1 to 8 inclusive are the amount of surrounding mines.
@@ -3789,8 +3813,12 @@ private:
 
 			if (cellValue == 9) { // there's a mine under the clicked cell
 				statusLabel->Text = "Status: Dead";
-				MessageBox::Show(this, "Game over", "MinesweeperCLR");
+				MessageBox::Show(this, "Game over! \nYou scored: " + score.ToString() + " points", "MinesweeperCLR", MessageBoxButtons::OK, MessageBoxIcon::Stop);
+			} else {
+				score = score + points; // add the points earned from the cleared cell to the score
+				points = 0;
 			}
+			scoreLabel->Text = "Score: " + score.ToString();
 		}
 		private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 			checkMine(1);
