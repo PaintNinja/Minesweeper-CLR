@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <string>
+#include <ctime>
 
 // Global array
 int theBoard[10][10] = { { 0 },{ 0 } };
@@ -1790,6 +1791,9 @@ private:
 		void newGame() {
 			std::cout << "test" << std::endl;
 			statusLabel->Text = "Status: Alive";
+
+			srand(time(0));  // seed the pseudo random number generator used by the rand() function with the current time.
+							 // If this is omitted, the rand() function would always be seeded with the default value of 1, which can make for a predictable game
 
 			// reset the score so that it's ready for the next game
 			score = 0;
