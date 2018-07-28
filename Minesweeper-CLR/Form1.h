@@ -434,6 +434,7 @@ private:
 			// 
 			// button100
 			// 
+			this->button100->Enabled = false;
 			this->button100->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button100->Location = System::Drawing::Point(498, 493);
@@ -447,6 +448,7 @@ private:
 			// 
 			// button99
 			// 
+			this->button99->Enabled = false;
 			this->button99->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button99->Location = System::Drawing::Point(444, 493);
@@ -460,6 +462,7 @@ private:
 			// 
 			// button98
 			// 
+			this->button98->Enabled = false;
 			this->button98->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button98->Location = System::Drawing::Point(390, 493);
@@ -473,6 +476,7 @@ private:
 			// 
 			// button97
 			// 
+			this->button97->Enabled = false;
 			this->button97->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button97->Location = System::Drawing::Point(336, 493);
@@ -486,6 +490,7 @@ private:
 			// 
 			// button96
 			// 
+			this->button96->Enabled = false;
 			this->button96->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button96->Location = System::Drawing::Point(282, 493);
@@ -499,6 +504,7 @@ private:
 			// 
 			// button95
 			// 
+			this->button95->Enabled = false;
 			this->button95->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button95->Location = System::Drawing::Point(228, 493);
@@ -512,6 +518,7 @@ private:
 			// 
 			// button94
 			// 
+			this->button94->Enabled = false;
 			this->button94->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button94->Location = System::Drawing::Point(174, 493);
@@ -525,6 +532,7 @@ private:
 			// 
 			// button93
 			// 
+			this->button93->Enabled = false;
 			this->button93->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button93->Location = System::Drawing::Point(120, 493);
@@ -538,6 +546,7 @@ private:
 			// 
 			// button92
 			// 
+			this->button92->Enabled = false;
 			this->button92->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button92->Location = System::Drawing::Point(66, 493);
@@ -551,6 +560,7 @@ private:
 			// 
 			// button91
 			// 
+			this->button91->Enabled = false;
 			this->button91->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button91->Location = System::Drawing::Point(12, 493);
@@ -564,6 +574,7 @@ private:
 			// 
 			// button90
 			// 
+			this->button90->Enabled = false;
 			this->button90->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button90->Location = System::Drawing::Point(498, 439);
@@ -577,6 +588,7 @@ private:
 			// 
 			// button89
 			// 
+			this->button89->Enabled = false;
 			this->button89->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button89->Location = System::Drawing::Point(444, 439);
@@ -590,6 +602,7 @@ private:
 			// 
 			// button88
 			// 
+			this->button88->Enabled = false;
 			this->button88->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button88->Location = System::Drawing::Point(390, 439);
@@ -603,6 +616,7 @@ private:
 			// 
 			// button87
 			// 
+			this->button87->Enabled = false;
 			this->button87->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button87->Location = System::Drawing::Point(336, 439);
@@ -616,6 +630,7 @@ private:
 			// 
 			// button86
 			// 
+			this->button86->Enabled = false;
 			this->button86->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button86->Location = System::Drawing::Point(282, 439);
@@ -629,6 +644,7 @@ private:
 			// 
 			// button85
 			// 
+			this->button85->Enabled = false;
 			this->button85->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button85->Location = System::Drawing::Point(228, 439);
@@ -642,6 +658,7 @@ private:
 			// 
 			// button84
 			// 
+			this->button84->Enabled = false;
 			this->button84->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button84->Location = System::Drawing::Point(174, 439);
@@ -655,6 +672,7 @@ private:
 			// 
 			// button83
 			// 
+			this->button83->Enabled = false;
 			this->button83->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button83->Location = System::Drawing::Point(120, 439);
@@ -668,6 +686,7 @@ private:
 			// 
 			// button82
 			// 
+			this->button82->Enabled = false;
 			this->button82->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button82->Location = System::Drawing::Point(66, 439);
@@ -681,6 +700,7 @@ private:
 			// 
 			// button81
 			// 
+			this->button81->Enabled = false;
 			this->button81->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button81->Location = System::Drawing::Point(12, 439);
@@ -694,6 +714,7 @@ private:
 			// 
 			// button80
 			// 
+			this->button80->Enabled = false;
 			this->button80->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button80->Location = System::Drawing::Point(498, 385);
@@ -707,6 +728,7 @@ private:
 			// 
 			// button79
 			// 
+			this->button79->Enabled = false;
 			this->button79->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button79->Location = System::Drawing::Point(444, 385);
@@ -720,6 +742,7 @@ private:
 			// 
 			// button78
 			// 
+			this->button78->Enabled = false;
 			this->button78->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button78->Location = System::Drawing::Point(390, 385);
@@ -733,6 +756,7 @@ private:
 			// 
 			// button77
 			// 
+			this->button77->Enabled = false;
 			this->button77->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button77->Location = System::Drawing::Point(336, 385);
@@ -746,6 +770,7 @@ private:
 			// 
 			// button76
 			// 
+			this->button76->Enabled = false;
 			this->button76->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button76->Location = System::Drawing::Point(282, 385);
@@ -759,6 +784,7 @@ private:
 			// 
 			// button75
 			// 
+			this->button75->Enabled = false;
 			this->button75->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button75->Location = System::Drawing::Point(228, 385);
@@ -772,6 +798,7 @@ private:
 			// 
 			// button74
 			// 
+			this->button74->Enabled = false;
 			this->button74->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button74->Location = System::Drawing::Point(174, 385);
@@ -785,6 +812,7 @@ private:
 			// 
 			// button73
 			// 
+			this->button73->Enabled = false;
 			this->button73->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button73->Location = System::Drawing::Point(120, 385);
@@ -798,6 +826,7 @@ private:
 			// 
 			// button72
 			// 
+			this->button72->Enabled = false;
 			this->button72->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button72->Location = System::Drawing::Point(66, 385);
@@ -811,6 +840,7 @@ private:
 			// 
 			// button71
 			// 
+			this->button71->Enabled = false;
 			this->button71->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button71->Location = System::Drawing::Point(12, 385);
@@ -824,6 +854,7 @@ private:
 			// 
 			// button70
 			// 
+			this->button70->Enabled = false;
 			this->button70->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button70->Location = System::Drawing::Point(498, 331);
@@ -837,6 +868,7 @@ private:
 			// 
 			// button69
 			// 
+			this->button69->Enabled = false;
 			this->button69->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button69->Location = System::Drawing::Point(444, 331);
@@ -850,6 +882,7 @@ private:
 			// 
 			// button68
 			// 
+			this->button68->Enabled = false;
 			this->button68->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button68->Location = System::Drawing::Point(390, 331);
@@ -863,6 +896,7 @@ private:
 			// 
 			// button67
 			// 
+			this->button67->Enabled = false;
 			this->button67->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button67->Location = System::Drawing::Point(336, 331);
@@ -876,6 +910,7 @@ private:
 			// 
 			// button66
 			// 
+			this->button66->Enabled = false;
 			this->button66->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button66->Location = System::Drawing::Point(282, 331);
@@ -889,6 +924,7 @@ private:
 			// 
 			// button65
 			// 
+			this->button65->Enabled = false;
 			this->button65->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button65->Location = System::Drawing::Point(228, 331);
@@ -902,6 +938,7 @@ private:
 			// 
 			// button64
 			// 
+			this->button64->Enabled = false;
 			this->button64->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button64->Location = System::Drawing::Point(174, 331);
@@ -915,6 +952,7 @@ private:
 			// 
 			// button63
 			// 
+			this->button63->Enabled = false;
 			this->button63->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button63->Location = System::Drawing::Point(120, 331);
@@ -928,6 +966,7 @@ private:
 			// 
 			// button62
 			// 
+			this->button62->Enabled = false;
 			this->button62->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button62->Location = System::Drawing::Point(66, 331);
@@ -941,6 +980,7 @@ private:
 			// 
 			// button61
 			// 
+			this->button61->Enabled = false;
 			this->button61->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button61->Location = System::Drawing::Point(12, 331);
@@ -954,6 +994,7 @@ private:
 			// 
 			// button60
 			// 
+			this->button60->Enabled = false;
 			this->button60->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button60->Location = System::Drawing::Point(498, 277);
@@ -967,6 +1008,7 @@ private:
 			// 
 			// button59
 			// 
+			this->button59->Enabled = false;
 			this->button59->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button59->Location = System::Drawing::Point(444, 277);
@@ -980,6 +1022,7 @@ private:
 			// 
 			// button58
 			// 
+			this->button58->Enabled = false;
 			this->button58->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button58->Location = System::Drawing::Point(390, 277);
@@ -993,6 +1036,7 @@ private:
 			// 
 			// button57
 			// 
+			this->button57->Enabled = false;
 			this->button57->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button57->Location = System::Drawing::Point(336, 277);
@@ -1006,6 +1050,7 @@ private:
 			// 
 			// button56
 			// 
+			this->button56->Enabled = false;
 			this->button56->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button56->Location = System::Drawing::Point(282, 277);
@@ -1019,6 +1064,7 @@ private:
 			// 
 			// button55
 			// 
+			this->button55->Enabled = false;
 			this->button55->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button55->Location = System::Drawing::Point(228, 277);
@@ -1032,6 +1078,7 @@ private:
 			// 
 			// button54
 			// 
+			this->button54->Enabled = false;
 			this->button54->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button54->Location = System::Drawing::Point(174, 277);
@@ -1045,6 +1092,7 @@ private:
 			// 
 			// button53
 			// 
+			this->button53->Enabled = false;
 			this->button53->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button53->Location = System::Drawing::Point(120, 277);
@@ -1058,6 +1106,7 @@ private:
 			// 
 			// button52
 			// 
+			this->button52->Enabled = false;
 			this->button52->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button52->Location = System::Drawing::Point(66, 277);
@@ -1071,6 +1120,7 @@ private:
 			// 
 			// button51
 			// 
+			this->button51->Enabled = false;
 			this->button51->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button51->Location = System::Drawing::Point(12, 277);
@@ -1084,6 +1134,7 @@ private:
 			// 
 			// button50
 			// 
+			this->button50->Enabled = false;
 			this->button50->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button50->Location = System::Drawing::Point(498, 223);
@@ -1097,6 +1148,7 @@ private:
 			// 
 			// button49
 			// 
+			this->button49->Enabled = false;
 			this->button49->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button49->Location = System::Drawing::Point(444, 223);
@@ -1110,6 +1162,7 @@ private:
 			// 
 			// button48
 			// 
+			this->button48->Enabled = false;
 			this->button48->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button48->Location = System::Drawing::Point(390, 223);
@@ -1123,6 +1176,7 @@ private:
 			// 
 			// button47
 			// 
+			this->button47->Enabled = false;
 			this->button47->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button47->Location = System::Drawing::Point(336, 223);
@@ -1136,6 +1190,7 @@ private:
 			// 
 			// button46
 			// 
+			this->button46->Enabled = false;
 			this->button46->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button46->Location = System::Drawing::Point(282, 223);
@@ -1149,6 +1204,7 @@ private:
 			// 
 			// button45
 			// 
+			this->button45->Enabled = false;
 			this->button45->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button45->Location = System::Drawing::Point(228, 223);
@@ -1162,6 +1218,7 @@ private:
 			// 
 			// button44
 			// 
+			this->button44->Enabled = false;
 			this->button44->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button44->Location = System::Drawing::Point(174, 223);
@@ -1175,6 +1232,7 @@ private:
 			// 
 			// button43
 			// 
+			this->button43->Enabled = false;
 			this->button43->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button43->Location = System::Drawing::Point(120, 223);
@@ -1188,6 +1246,7 @@ private:
 			// 
 			// button42
 			// 
+			this->button42->Enabled = false;
 			this->button42->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button42->Location = System::Drawing::Point(66, 223);
@@ -1201,6 +1260,7 @@ private:
 			// 
 			// button41
 			// 
+			this->button41->Enabled = false;
 			this->button41->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button41->Location = System::Drawing::Point(12, 223);
@@ -1214,6 +1274,7 @@ private:
 			// 
 			// button40
 			// 
+			this->button40->Enabled = false;
 			this->button40->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button40->Location = System::Drawing::Point(498, 169);
@@ -1227,6 +1288,7 @@ private:
 			// 
 			// button39
 			// 
+			this->button39->Enabled = false;
 			this->button39->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button39->Location = System::Drawing::Point(444, 169);
@@ -1240,6 +1302,7 @@ private:
 			// 
 			// button38
 			// 
+			this->button38->Enabled = false;
 			this->button38->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button38->Location = System::Drawing::Point(390, 169);
@@ -1253,6 +1316,7 @@ private:
 			// 
 			// button37
 			// 
+			this->button37->Enabled = false;
 			this->button37->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button37->Location = System::Drawing::Point(336, 169);
@@ -1266,6 +1330,7 @@ private:
 			// 
 			// button36
 			// 
+			this->button36->Enabled = false;
 			this->button36->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button36->Location = System::Drawing::Point(282, 169);
@@ -1279,6 +1344,7 @@ private:
 			// 
 			// button35
 			// 
+			this->button35->Enabled = false;
 			this->button35->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button35->Location = System::Drawing::Point(228, 169);
@@ -1292,6 +1358,7 @@ private:
 			// 
 			// button34
 			// 
+			this->button34->Enabled = false;
 			this->button34->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button34->Location = System::Drawing::Point(174, 169);
@@ -1305,6 +1372,7 @@ private:
 			// 
 			// button33
 			// 
+			this->button33->Enabled = false;
 			this->button33->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button33->Location = System::Drawing::Point(120, 169);
@@ -1318,6 +1386,7 @@ private:
 			// 
 			// button32
 			// 
+			this->button32->Enabled = false;
 			this->button32->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button32->Location = System::Drawing::Point(66, 169);
@@ -1331,6 +1400,7 @@ private:
 			// 
 			// button31
 			// 
+			this->button31->Enabled = false;
 			this->button31->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button31->Location = System::Drawing::Point(12, 169);
@@ -1344,6 +1414,7 @@ private:
 			// 
 			// button30
 			// 
+			this->button30->Enabled = false;
 			this->button30->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button30->Location = System::Drawing::Point(498, 115);
@@ -1357,6 +1428,7 @@ private:
 			// 
 			// button29
 			// 
+			this->button29->Enabled = false;
 			this->button29->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button29->Location = System::Drawing::Point(444, 115);
@@ -1370,6 +1442,7 @@ private:
 			// 
 			// button28
 			// 
+			this->button28->Enabled = false;
 			this->button28->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button28->Location = System::Drawing::Point(390, 115);
@@ -1383,6 +1456,7 @@ private:
 			// 
 			// button27
 			// 
+			this->button27->Enabled = false;
 			this->button27->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button27->Location = System::Drawing::Point(336, 115);
@@ -1396,6 +1470,7 @@ private:
 			// 
 			// button26
 			// 
+			this->button26->Enabled = false;
 			this->button26->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button26->Location = System::Drawing::Point(282, 115);
@@ -1409,6 +1484,7 @@ private:
 			// 
 			// button25
 			// 
+			this->button25->Enabled = false;
 			this->button25->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button25->Location = System::Drawing::Point(228, 115);
@@ -1422,6 +1498,7 @@ private:
 			// 
 			// button24
 			// 
+			this->button24->Enabled = false;
 			this->button24->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button24->Location = System::Drawing::Point(174, 115);
@@ -1435,6 +1512,7 @@ private:
 			// 
 			// button23
 			// 
+			this->button23->Enabled = false;
 			this->button23->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button23->Location = System::Drawing::Point(120, 115);
@@ -1448,6 +1526,7 @@ private:
 			// 
 			// button22
 			// 
+			this->button22->Enabled = false;
 			this->button22->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button22->Location = System::Drawing::Point(66, 115);
@@ -1461,6 +1540,7 @@ private:
 			// 
 			// button21
 			// 
+			this->button21->Enabled = false;
 			this->button21->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button21->Location = System::Drawing::Point(12, 115);
@@ -1474,6 +1554,7 @@ private:
 			// 
 			// button20
 			// 
+			this->button20->Enabled = false;
 			this->button20->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button20->Location = System::Drawing::Point(498, 61);
@@ -1487,6 +1568,7 @@ private:
 			// 
 			// button19
 			// 
+			this->button19->Enabled = false;
 			this->button19->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button19->Location = System::Drawing::Point(444, 61);
@@ -1500,6 +1582,7 @@ private:
 			// 
 			// button18
 			// 
+			this->button18->Enabled = false;
 			this->button18->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button18->Location = System::Drawing::Point(390, 61);
@@ -1513,6 +1596,7 @@ private:
 			// 
 			// button17
 			// 
+			this->button17->Enabled = false;
 			this->button17->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button17->Location = System::Drawing::Point(336, 61);
@@ -1526,6 +1610,7 @@ private:
 			// 
 			// button16
 			// 
+			this->button16->Enabled = false;
 			this->button16->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button16->Location = System::Drawing::Point(282, 61);
@@ -1539,6 +1624,7 @@ private:
 			// 
 			// button15
 			// 
+			this->button15->Enabled = false;
 			this->button15->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button15->Location = System::Drawing::Point(228, 61);
@@ -1552,6 +1638,7 @@ private:
 			// 
 			// button14
 			// 
+			this->button14->Enabled = false;
 			this->button14->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button14->Location = System::Drawing::Point(174, 61);
@@ -1565,6 +1652,7 @@ private:
 			// 
 			// button13
 			// 
+			this->button13->Enabled = false;
 			this->button13->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button13->Location = System::Drawing::Point(120, 61);
@@ -1578,6 +1666,7 @@ private:
 			// 
 			// button12
 			// 
+			this->button12->Enabled = false;
 			this->button12->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button12->Location = System::Drawing::Point(66, 61);
@@ -1591,6 +1680,7 @@ private:
 			// 
 			// button11
 			// 
+			this->button11->Enabled = false;
 			this->button11->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button11->Location = System::Drawing::Point(12, 61);
@@ -1604,6 +1694,7 @@ private:
 			// 
 			// button10
 			// 
+			this->button10->Enabled = false;
 			this->button10->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button10->Location = System::Drawing::Point(498, 7);
@@ -1617,6 +1708,7 @@ private:
 			// 
 			// button9
 			// 
+			this->button9->Enabled = false;
 			this->button9->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button9->Location = System::Drawing::Point(444, 7);
@@ -1630,6 +1722,7 @@ private:
 			// 
 			// button8
 			// 
+			this->button8->Enabled = false;
 			this->button8->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button8->Location = System::Drawing::Point(390, 7);
@@ -1643,6 +1736,7 @@ private:
 			// 
 			// button7
 			// 
+			this->button7->Enabled = false;
 			this->button7->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button7->Location = System::Drawing::Point(336, 7);
@@ -1656,6 +1750,7 @@ private:
 			// 
 			// button6
 			// 
+			this->button6->Enabled = false;
 			this->button6->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button6->Location = System::Drawing::Point(282, 7);
@@ -1669,6 +1764,7 @@ private:
 			// 
 			// button5
 			// 
+			this->button5->Enabled = false;
 			this->button5->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button5->Location = System::Drawing::Point(228, 7);
@@ -1682,6 +1778,7 @@ private:
 			// 
 			// button4
 			// 
+			this->button4->Enabled = false;
 			this->button4->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button4->Location = System::Drawing::Point(174, 7);
@@ -1695,6 +1792,7 @@ private:
 			// 
 			// button3
 			// 
+			this->button3->Enabled = false;
 			this->button3->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button3->Location = System::Drawing::Point(120, 7);
@@ -1708,6 +1806,7 @@ private:
 			// 
 			// button2
 			// 
+			this->button2->Enabled = false;
 			this->button2->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button2->Location = System::Drawing::Point(66, 7);
@@ -1722,6 +1821,7 @@ private:
 			// button1
 			// 
 			this->button1->BackColor = System::Drawing::SystemColors::Control;
+			this->button1->Enabled = false;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Segoe UI", 14.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->button1->Location = System::Drawing::Point(12, 7);
@@ -1788,8 +1888,117 @@ private:
 
 		}
 #pragma endregion
+		void enableBoard() {
+			changeBoard(true);
+		}
+		void disableBoard() {
+			changeBoard(false);
+		}
+		void changeBoard(bool state) {
+			button1->Enabled = state;
+			button2->Enabled = state;
+			button3->Enabled = state;
+			button4->Enabled = state;
+			button5->Enabled = state;
+			button6->Enabled = state;
+			button7->Enabled = state;
+			button8->Enabled = state;
+			button9->Enabled = state;
+			button10->Enabled = state;
+			button11->Enabled = state;
+			button12->Enabled = state;
+			button13->Enabled = state;
+			button14->Enabled = state;
+			button15->Enabled = state;
+			button16->Enabled = state;
+			button17->Enabled = state;
+			button18->Enabled = state;
+			button19->Enabled = state;
+			button20->Enabled = state;
+			button21->Enabled = state;
+			button22->Enabled = state;
+			button23->Enabled = state;
+			button24->Enabled = state;
+			button25->Enabled = state;
+			button26->Enabled = state;
+			button27->Enabled = state;
+			button28->Enabled = state;
+			button29->Enabled = state;
+			button30->Enabled = state;
+			button31->Enabled = state;
+			button32->Enabled = state;
+			button33->Enabled = state;
+			button34->Enabled = state;
+			button35->Enabled = state;
+			button36->Enabled = state;
+			button37->Enabled = state;
+			button38->Enabled = state;
+			button39->Enabled = state;
+			button40->Enabled = state;
+			button41->Enabled = state;
+			button42->Enabled = state;
+			button43->Enabled = state;
+			button44->Enabled = state;
+			button45->Enabled = state;
+			button46->Enabled = state;
+			button47->Enabled = state;
+			button48->Enabled = state;
+			button49->Enabled = state;
+			button50->Enabled = state;
+			button51->Enabled = state;
+			button52->Enabled = state;
+			button53->Enabled = state;
+			button54->Enabled = state;
+			button55->Enabled = state;
+			button56->Enabled = state;
+			button57->Enabled = state;
+			button58->Enabled = state;
+			button59->Enabled = state;
+			button60->Enabled = state;
+			button61->Enabled = state;
+			button62->Enabled = state;
+			button63->Enabled = state;
+			button64->Enabled = state;
+			button65->Enabled = state;
+			button66->Enabled = state;
+			button67->Enabled = state;
+			button68->Enabled = state;
+			button69->Enabled = state;
+			button70->Enabled = state;
+			button71->Enabled = state;
+			button72->Enabled = state;
+			button73->Enabled = state;
+			button74->Enabled = state;
+			button75->Enabled = state;
+			button76->Enabled = state;
+			button77->Enabled = state;
+			button78->Enabled = state;
+			button79->Enabled = state;
+			button80->Enabled = state;
+			button81->Enabled = state;
+			button82->Enabled = state;
+			button83->Enabled = state;
+			button84->Enabled = state;
+			button85->Enabled = state;
+			button86->Enabled = state;
+			button87->Enabled = state;
+			button88->Enabled = state;
+			button89->Enabled = state;
+			button90->Enabled = state;
+			button91->Enabled = state;
+			button92->Enabled = state;
+			button93->Enabled = state;
+			button94->Enabled = state;
+			button95->Enabled = state;
+			button96->Enabled = state;
+			button97->Enabled = state;
+			button98->Enabled = state;
+			button99->Enabled = state;
+			button100->Enabled = state;
+		}
 		void newGame() {
-			std::cout << "test" << std::endl;
+			//std::cout << "test" << std::endl;
+			enableBoard();
 			statusLabel->Text = "Status: Alive";
 
 			srand(time(0));  // seed the pseudo random number generator used by the rand() function with the current time.
@@ -3918,6 +4127,7 @@ private:
 			if (cellValue == 9) { // there's a mine under the clicked cell
 				statusLabel->Text = "Status: Dead";
 				MessageBox::Show(this, "Game over! \nYou scored: " + score.ToString() + " points", "MinesweeperCLR", MessageBoxButtons::OK, MessageBoxIcon::Stop);
+				disableBoard();
 			} else {
 				score = score + points; // add the points earned from the cleared cell to the score
 				points = 0;
