@@ -156,6 +156,10 @@ namespace CppCLR_WinformsProjekt {
 private: System::Windows::Forms::Label^  scoreLabel;
 
 public: System::Windows::Forms::Label^  statusLabel;
+private: System::Windows::Forms::ToolStripMenuItem^  easyDifficultyToolStripMenuItem;
+public:
+private: System::Windows::Forms::ToolStripMenuItem^  mediumDifficultyToolStripMenuItem;
+private: System::Windows::Forms::ToolStripMenuItem^  hardDifficultyToolStripMenuItem;
 private:
 
 
@@ -174,6 +178,9 @@ private:
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
 			this->menuToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->newGameToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->easyDifficultyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->mediumDifficultyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->hardDifficultyToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->toolStripSeparator1 = (gcnew System::Windows::Forms::ToolStripSeparator());
 			this->quitToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->panel1 = (gcnew System::Windows::Forms::Panel());
@@ -307,20 +314,44 @@ private:
 			// 
 			// newGameToolStripMenuItem
 			// 
+			this->newGameToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
+				this->easyDifficultyToolStripMenuItem,
+					this->mediumDifficultyToolStripMenuItem, this->hardDifficultyToolStripMenuItem
+			});
 			this->newGameToolStripMenuItem->Name = L"newGameToolStripMenuItem";
-			this->newGameToolStripMenuItem->Size = System::Drawing::Size(131, 22);
+			this->newGameToolStripMenuItem->Size = System::Drawing::Size(180, 22);
 			this->newGameToolStripMenuItem->Text = L"New game";
-			this->newGameToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::newGameToolStripMenuItem_Click);
+			// 
+			// easyDifficultyToolStripMenuItem
+			// 
+			this->easyDifficultyToolStripMenuItem->Name = L"easyDifficultyToolStripMenuItem";
+			this->easyDifficultyToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->easyDifficultyToolStripMenuItem->Text = L"Easy difficulty";
+			this->easyDifficultyToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::easyDifficultyToolStripMenuItem_Click);
+			// 
+			// mediumDifficultyToolStripMenuItem
+			// 
+			this->mediumDifficultyToolStripMenuItem->Name = L"mediumDifficultyToolStripMenuItem";
+			this->mediumDifficultyToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->mediumDifficultyToolStripMenuItem->Text = L"Medium difficulty";
+			this->mediumDifficultyToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::mediumDifficultyToolStripMenuItem_Click);
+			// 
+			// hardDifficultyToolStripMenuItem
+			// 
+			this->hardDifficultyToolStripMenuItem->Name = L"hardDifficultyToolStripMenuItem";
+			this->hardDifficultyToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->hardDifficultyToolStripMenuItem->Text = L"Hard difficulty";
+			this->hardDifficultyToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::hardDifficultyToolStripMenuItem_Click);
 			// 
 			// toolStripSeparator1
 			// 
 			this->toolStripSeparator1->Name = L"toolStripSeparator1";
-			this->toolStripSeparator1->Size = System::Drawing::Size(128, 6);
+			this->toolStripSeparator1->Size = System::Drawing::Size(177, 6);
 			// 
 			// quitToolStripMenuItem
 			// 
 			this->quitToolStripMenuItem->Name = L"quitToolStripMenuItem";
-			this->quitToolStripMenuItem->Size = System::Drawing::Size(131, 22);
+			this->quitToolStripMenuItem->Size = System::Drawing::Size(180, 22);
 			this->quitToolStripMenuItem->Text = L"Quit";
 			this->quitToolStripMenuItem->Click += gcnew System::EventHandler(this, &Form1::quitToolStripMenuItem_Click);
 			// 
@@ -1996,7 +2027,7 @@ private:
 			button99->Enabled = state;
 			button100->Enabled = state;
 		}
-		void newGame() {
+		void newGame(int difficulty) {
 			//std::cout << "test" << std::endl;
 			enableBoard();
 			statusLabel->Text = "Status: Alive";
@@ -2013,13 +2044,25 @@ private:
 			for (int x = 0; x < 10; x++) {
 				for (int y = 0; y < 10; y++) {
 					theBoard[x][y] = rand() % 2; // the contents of each cell will be a random binary number (0 or 1)
-					if (theBoard[x][y] == 1) { // if it's a 1, randomise it again to half the potential amount of mines.
-						theBoard[x][y] = rand() %2;
 
-						if (theBoard[x][y] == 1) {
-							// if it's still a 1, turn it into a mine by changing its value to 9. Values 1 to 8 inclusive are used for counting nearby mines.
-							theBoard[x][y] = 9;
+					// hard difficulty: randomise the board only once. difficulty int = 0.
+					// medium difficulty: randomise the board once, then randomise the board once more only for the cells that were mines the first run. difficulty int = 1.
+					// easy difficulty: randomise the board once, then randomise the board twice more only for cells that were mines in the first and second runs. difficulty int = 2.
+					if (difficulty > 0) {
+						if (theBoard[x][y] == 1) { // if it's a 1, randomise it again to half the potential amount of mines.
+							theBoard[x][y] = rand() % 2;
+
+							if (difficulty > 1) {
+								if (theBoard[x][y] == 1) {
+									theBoard[x][y] = rand() % 2;
+								}
+							}
 						}
+					}
+
+					if (theBoard[x][y] == 1) {
+						// if it's still a 1, turn it into a mine by changing its value to 9. Values 1 to 8 inclusive are used for counting nearby mines.
+						theBoard[x][y] = 9;
 					}
 					std::cout << theBoard[x][y];
 				}
@@ -2232,9 +2275,6 @@ private:
 		}
 		private: System::Void quitToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
 			Form1::Close();
-		}
-		private: System::Void newGameToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
-			newGame();
 		}
 		private: void changeButton(int buttonId, int cellValue) {
 			// this function changes the button's background colour and text based on its buttonId and cellValue
@@ -4433,6 +4473,15 @@ private:
 		}
 		private: System::Void button100_Click(System::Object^  sender, System::EventArgs^  e) {
 			checkMine(100);
+		}
+		private: System::Void easyDifficultyToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+			newGame(2);
+		}
+		private: System::Void mediumDifficultyToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+			newGame(1);
+		}
+		private: System::Void hardDifficultyToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) {
+			newGame(0);
 		}
 	};
 }
