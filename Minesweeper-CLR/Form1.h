@@ -2288,7 +2288,7 @@ private:
 					button1->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button1->BackColor = BackColor.Yellow;
-					button1->Text = "2";
+					button1->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button1->BackColor = BackColor.Orange;
 					button1->Text = cellValue.ToString();
@@ -2302,7 +2302,7 @@ private:
 					button2->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button2->BackColor = BackColor.Yellow;
-					button2->Text = "2";
+					button2->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button2->BackColor = BackColor.Orange;
 					button2->Text = cellValue.ToString();
@@ -2316,7 +2316,7 @@ private:
 					button3->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button3->BackColor = BackColor.Yellow;
-					button3->Text = "2";
+					button3->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button3->BackColor = BackColor.Orange;
 					button3->Text = cellValue.ToString();
@@ -2330,7 +2330,7 @@ private:
 					button4->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button4->BackColor = BackColor.Yellow;
-					button4->Text = "2";
+					button4->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button4->BackColor = BackColor.Orange;
 					button4->Text = cellValue.ToString();
@@ -2344,7 +2344,7 @@ private:
 					button5->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button5->BackColor = BackColor.Yellow;
-					button5->Text = "2";
+					button5->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button5->BackColor = BackColor.Orange;
 					button5->Text = cellValue.ToString();
@@ -2358,7 +2358,7 @@ private:
 					button6->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button6->BackColor = BackColor.Yellow;
-					button6->Text = "2";
+					button6->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button6->BackColor = BackColor.Orange;
 					button6->Text = cellValue.ToString();
@@ -2372,7 +2372,7 @@ private:
 					button7->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button7->BackColor = BackColor.Yellow;
-					button7->Text = "2";
+					button7->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button7->BackColor = BackColor.Orange;
 					button7->Text = cellValue.ToString();
@@ -2386,7 +2386,7 @@ private:
 					button8->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button8->BackColor = BackColor.Yellow;
-					button8->Text = "2";
+					button8->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button8->BackColor = BackColor.Orange;
 					button8->Text = cellValue.ToString();
@@ -2400,7 +2400,7 @@ private:
 					button9->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button9->BackColor = BackColor.Yellow;
-					button9->Text = "2";
+					button9->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button9->BackColor = BackColor.Orange;
 					button9->Text = cellValue.ToString();
@@ -2414,7 +2414,7 @@ private:
 					button10->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button10->BackColor = BackColor.Yellow;
-					button10->Text = "2";
+					button10->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button10->BackColor = BackColor.Orange;
 					button10->Text = cellValue.ToString();
@@ -2428,7 +2428,7 @@ private:
 					button11->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button11->BackColor = BackColor.Yellow;
-					button11->Text = "2";
+					button11->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button11->BackColor = BackColor.Orange;
 					button11->Text = cellValue.ToString();
@@ -2442,7 +2442,7 @@ private:
 					button12->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button12->BackColor = BackColor.Yellow;
-					button12->Text = "2";
+					button12->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button12->BackColor = BackColor.Orange;
 					button12->Text = cellValue.ToString();
@@ -2456,7 +2456,7 @@ private:
 					button13->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button13->BackColor = BackColor.Yellow;
-					button13->Text = "2";
+					button13->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button13->BackColor = BackColor.Orange;
 					button13->Text = cellValue.ToString();
@@ -2470,7 +2470,7 @@ private:
 					button14->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button14->BackColor = BackColor.Yellow;
-					button14->Text = "2";
+					button14->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button14->BackColor = BackColor.Orange;
 					button14->Text = cellValue.ToString();
@@ -2484,7 +2484,7 @@ private:
 					button15->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button15->BackColor = BackColor.Yellow;
-					button15->Text = "2";
+					button15->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button15->BackColor = BackColor.Orange;
 					button15->Text = cellValue.ToString();
@@ -2498,7 +2498,7 @@ private:
 					button16->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button16->BackColor = BackColor.Yellow;
-					button16->Text = "2";
+					button16->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button16->BackColor = BackColor.Orange;
 					button16->Text = cellValue.ToString();
@@ -2512,7 +2512,7 @@ private:
 					button17->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button17->BackColor = BackColor.Yellow;
-					button17->Text = "2";
+					button17->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button17->BackColor = BackColor.Orange;
 					button17->Text = cellValue.ToString();
@@ -2526,7 +2526,7 @@ private:
 					button18->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button18->BackColor = BackColor.Yellow;
-					button18->Text = "2";
+					button18->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button18->BackColor = BackColor.Orange;
 					button18->Text = cellValue.ToString();
@@ -2540,7 +2540,7 @@ private:
 					button19->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button19->BackColor = BackColor.Yellow;
-					button19->Text = "2";
+					button19->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button19->BackColor = BackColor.Orange;
 					button19->Text = cellValue.ToString();
@@ -2554,7 +2554,7 @@ private:
 					button20->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button20->BackColor = BackColor.Yellow;
-					button20->Text = "2";
+					button20->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button20->BackColor = BackColor.Orange;
 					button20->Text = cellValue.ToString();
@@ -2568,7 +2568,7 @@ private:
 					button21->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button21->BackColor = BackColor.Yellow;
-					button21->Text = "2";
+					button21->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button21->BackColor = BackColor.Orange;
 					button21->Text = cellValue.ToString();
@@ -2582,7 +2582,7 @@ private:
 					button22->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button22->BackColor = BackColor.Yellow;
-					button22->Text = "2";
+					button22->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button22->BackColor = BackColor.Orange;
 					button22->Text = cellValue.ToString();
@@ -2596,7 +2596,7 @@ private:
 					button23->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button23->BackColor = BackColor.Yellow;
-					button23->Text = "2";
+					button23->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button23->BackColor = BackColor.Orange;
 					button23->Text = cellValue.ToString();
@@ -2610,7 +2610,7 @@ private:
 					button24->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button24->BackColor = BackColor.Yellow;
-					button24->Text = "2";
+					button24->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button24->BackColor = BackColor.Orange;
 					button24->Text = cellValue.ToString();
@@ -2624,7 +2624,7 @@ private:
 					button25->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button25->BackColor = BackColor.Yellow;
-					button25->Text = "2";
+					button25->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button25->BackColor = BackColor.Orange;
 					button25->Text = cellValue.ToString();
@@ -2638,7 +2638,7 @@ private:
 					button26->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button26->BackColor = BackColor.Yellow;
-					button26->Text = "2";
+					button26->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button26->BackColor = BackColor.Orange;
 					button26->Text = cellValue.ToString();
@@ -2652,7 +2652,7 @@ private:
 					button27->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button27->BackColor = BackColor.Yellow;
-					button27->Text = "2";
+					button27->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button27->BackColor = BackColor.Orange;
 					button27->Text = cellValue.ToString();
@@ -2666,7 +2666,7 @@ private:
 					button28->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button28->BackColor = BackColor.Yellow;
-					button28->Text = "2";
+					button28->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button28->BackColor = BackColor.Orange;
 					button28->Text = cellValue.ToString();
@@ -2680,7 +2680,7 @@ private:
 					button29->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button29->BackColor = BackColor.Yellow;
-					button29->Text = "2";
+					button29->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button29->BackColor = BackColor.Orange;
 					button29->Text = cellValue.ToString();
@@ -2694,7 +2694,7 @@ private:
 					button30->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button30->BackColor = BackColor.Yellow;
-					button30->Text = "2";
+					button30->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button30->BackColor = BackColor.Orange;
 					button30->Text = cellValue.ToString();
@@ -2708,7 +2708,7 @@ private:
 					button31->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button31->BackColor = BackColor.Yellow;
-					button31->Text = "2";
+					button31->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button31->BackColor = BackColor.Orange;
 					button31->Text = cellValue.ToString();
@@ -2722,7 +2722,7 @@ private:
 					button32->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button32->BackColor = BackColor.Yellow;
-					button32->Text = "2";
+					button32->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button32->BackColor = BackColor.Orange;
 					button32->Text = cellValue.ToString();
@@ -2736,7 +2736,7 @@ private:
 					button33->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button33->BackColor = BackColor.Yellow;
-					button33->Text = "2";
+					button33->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button33->BackColor = BackColor.Orange;
 					button33->Text = cellValue.ToString();
@@ -2750,7 +2750,7 @@ private:
 					button34->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button34->BackColor = BackColor.Yellow;
-					button34->Text = "2";
+					button34->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button34->BackColor = BackColor.Orange;
 					button34->Text = cellValue.ToString();
@@ -2764,7 +2764,7 @@ private:
 					button35->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button35->BackColor = BackColor.Yellow;
-					button35->Text = "2";
+					button35->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button35->BackColor = BackColor.Orange;
 					button35->Text = cellValue.ToString();
@@ -2778,7 +2778,7 @@ private:
 					button36->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button36->BackColor = BackColor.Yellow;
-					button36->Text = "2";
+					button36->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button36->BackColor = BackColor.Orange;
 					button36->Text = cellValue.ToString();
@@ -2792,7 +2792,7 @@ private:
 					button37->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button37->BackColor = BackColor.Yellow;
-					button37->Text = "2";
+					button37->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button37->BackColor = BackColor.Orange;
 					button37->Text = cellValue.ToString();
@@ -2806,7 +2806,7 @@ private:
 					button38->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button38->BackColor = BackColor.Yellow;
-					button38->Text = "2";
+					button38->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button38->BackColor = BackColor.Orange;
 					button38->Text = cellValue.ToString();
@@ -2820,7 +2820,7 @@ private:
 					button39->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button39->BackColor = BackColor.Yellow;
-					button39->Text = "2";
+					button39->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button39->BackColor = BackColor.Orange;
 					button39->Text = cellValue.ToString();
@@ -2834,7 +2834,7 @@ private:
 					button40->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button40->BackColor = BackColor.Yellow;
-					button40->Text = "2";
+					button40->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button40->BackColor = BackColor.Orange;
 					button40->Text = cellValue.ToString();
@@ -2848,7 +2848,7 @@ private:
 					button41->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button41->BackColor = BackColor.Yellow;
-					button41->Text = "2";
+					button41->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button41->BackColor = BackColor.Orange;
 					button41->Text = cellValue.ToString();
@@ -2862,7 +2862,7 @@ private:
 					button42->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button42->BackColor = BackColor.Yellow;
-					button42->Text = "2";
+					button42->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button42->BackColor = BackColor.Orange;
 					button42->Text = cellValue.ToString();
@@ -2876,7 +2876,7 @@ private:
 					button43->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button43->BackColor = BackColor.Yellow;
-					button43->Text = "2";
+					button43->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button43->BackColor = BackColor.Orange;
 					button43->Text = cellValue.ToString();
@@ -2890,7 +2890,7 @@ private:
 					button44->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button44->BackColor = BackColor.Yellow;
-					button44->Text = "2";
+					button44->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button44->BackColor = BackColor.Orange;
 					button44->Text = cellValue.ToString();
@@ -2904,7 +2904,7 @@ private:
 					button45->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button45->BackColor = BackColor.Yellow;
-					button45->Text = "2";
+					button45->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button45->BackColor = BackColor.Orange;
 					button45->Text = cellValue.ToString();
@@ -2918,7 +2918,7 @@ private:
 					button46->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button46->BackColor = BackColor.Yellow;
-					button46->Text = "2";
+					button46->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button46->BackColor = BackColor.Orange;
 					button46->Text = cellValue.ToString();
@@ -2932,7 +2932,7 @@ private:
 					button47->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button47->BackColor = BackColor.Yellow;
-					button47->Text = "2";
+					button47->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button47->BackColor = BackColor.Orange;
 					button47->Text = cellValue.ToString();
@@ -2946,7 +2946,7 @@ private:
 					button48->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button48->BackColor = BackColor.Yellow;
-					button48->Text = "2";
+					button48->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button48->BackColor = BackColor.Orange;
 					button48->Text = cellValue.ToString();
@@ -2960,7 +2960,7 @@ private:
 					button49->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button49->BackColor = BackColor.Yellow;
-					button49->Text = "2";
+					button49->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button49->BackColor = BackColor.Orange;
 					button49->Text = cellValue.ToString();
@@ -2974,7 +2974,7 @@ private:
 					button50->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button50->BackColor = BackColor.Yellow;
-					button50->Text = "2";
+					button50->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button50->BackColor = BackColor.Orange;
 					button50->Text = cellValue.ToString();
@@ -2988,7 +2988,7 @@ private:
 					button51->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button51->BackColor = BackColor.Yellow;
-					button51->Text = "2";
+					button51->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button51->BackColor = BackColor.Orange;
 					button51->Text = cellValue.ToString();
@@ -3002,7 +3002,7 @@ private:
 					button52->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button52->BackColor = BackColor.Yellow;
-					button52->Text = "2";
+					button52->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button52->BackColor = BackColor.Orange;
 					button52->Text = cellValue.ToString();
@@ -3016,7 +3016,7 @@ private:
 					button53->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button53->BackColor = BackColor.Yellow;
-					button53->Text = "2";
+					button53->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button53->BackColor = BackColor.Orange;
 					button53->Text = cellValue.ToString();
@@ -3030,7 +3030,7 @@ private:
 					button54->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button54->BackColor = BackColor.Yellow;
-					button54->Text = "2";
+					button54->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button54->BackColor = BackColor.Orange;
 					button54->Text = cellValue.ToString();
@@ -3044,7 +3044,7 @@ private:
 					button55->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button55->BackColor = BackColor.Yellow;
-					button55->Text = "2";
+					button55->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button55->BackColor = BackColor.Orange;
 					button55->Text = cellValue.ToString();
@@ -3058,7 +3058,7 @@ private:
 					button56->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button56->BackColor = BackColor.Yellow;
-					button56->Text = "2";
+					button56->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button56->BackColor = BackColor.Orange;
 					button56->Text = cellValue.ToString();
@@ -3072,7 +3072,7 @@ private:
 					button57->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button57->BackColor = BackColor.Yellow;
-					button57->Text = "2";
+					button57->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button57->BackColor = BackColor.Orange;
 					button57->Text = cellValue.ToString();
@@ -3086,7 +3086,7 @@ private:
 					button58->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button58->BackColor = BackColor.Yellow;
-					button58->Text = "2";
+					button58->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button58->BackColor = BackColor.Orange;
 					button58->Text = cellValue.ToString();
@@ -3100,7 +3100,7 @@ private:
 					button59->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button59->BackColor = BackColor.Yellow;
-					button59->Text = "2";
+					button59->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button59->BackColor = BackColor.Orange;
 					button59->Text = cellValue.ToString();
@@ -3114,7 +3114,7 @@ private:
 					button60->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button60->BackColor = BackColor.Yellow;
-					button60->Text = "2";
+					button60->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button60->BackColor = BackColor.Orange;
 					button60->Text = cellValue.ToString();
@@ -3128,7 +3128,7 @@ private:
 					button61->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button61->BackColor = BackColor.Yellow;
-					button61->Text = "2";
+					button61->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button61->BackColor = BackColor.Orange;
 					button61->Text = cellValue.ToString();
@@ -3142,7 +3142,7 @@ private:
 					button62->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button62->BackColor = BackColor.Yellow;
-					button62->Text = "2";
+					button62->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button62->BackColor = BackColor.Orange;
 					button62->Text = cellValue.ToString();
@@ -3156,7 +3156,7 @@ private:
 					button63->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button63->BackColor = BackColor.Yellow;
-					button63->Text = "2";
+					button63->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button63->BackColor = BackColor.Orange;
 					button63->Text = cellValue.ToString();
@@ -3170,7 +3170,7 @@ private:
 					button64->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button64->BackColor = BackColor.Yellow;
-					button64->Text = "2";
+					button64->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button64->BackColor = BackColor.Orange;
 					button64->Text = cellValue.ToString();
@@ -3184,7 +3184,7 @@ private:
 					button65->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button65->BackColor = BackColor.Yellow;
-					button65->Text = "2";
+					button65->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button65->BackColor = BackColor.Orange;
 					button65->Text = cellValue.ToString();
@@ -3198,7 +3198,7 @@ private:
 					button66->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button66->BackColor = BackColor.Yellow;
-					button66->Text = "2";
+					button66->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button66->BackColor = BackColor.Orange;
 					button66->Text = cellValue.ToString();
@@ -3212,7 +3212,7 @@ private:
 					button67->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button67->BackColor = BackColor.Yellow;
-					button67->Text = "2";
+					button67->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button67->BackColor = BackColor.Orange;
 					button67->Text = cellValue.ToString();
@@ -3226,7 +3226,7 @@ private:
 					button68->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button68->BackColor = BackColor.Yellow;
-					button68->Text = "2";
+					button68->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button68->BackColor = BackColor.Orange;
 					button68->Text = cellValue.ToString();
@@ -3240,7 +3240,7 @@ private:
 					button69->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button69->BackColor = BackColor.Yellow;
-					button69->Text = "2";
+					button69->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button69->BackColor = BackColor.Orange;
 					button69->Text = cellValue.ToString();
@@ -3254,7 +3254,7 @@ private:
 					button70->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button70->BackColor = BackColor.Yellow;
-					button70->Text = "2";
+					button70->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button70->BackColor = BackColor.Orange;
 					button70->Text = cellValue.ToString();
@@ -3268,7 +3268,7 @@ private:
 					button71->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button71->BackColor = BackColor.Yellow;
-					button71->Text = "2";
+					button71->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button71->BackColor = BackColor.Orange;
 					button71->Text = cellValue.ToString();
@@ -3282,7 +3282,7 @@ private:
 					button72->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button72->BackColor = BackColor.Yellow;
-					button72->Text = "2";
+					button72->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button72->BackColor = BackColor.Orange;
 					button72->Text = cellValue.ToString();
@@ -3296,7 +3296,7 @@ private:
 					button73->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button73->BackColor = BackColor.Yellow;
-					button73->Text = "2";
+					button73->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button73->BackColor = BackColor.Orange;
 					button73->Text = cellValue.ToString();
@@ -3310,7 +3310,7 @@ private:
 					button74->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button74->BackColor = BackColor.Yellow;
-					button74->Text = "2";
+					button74->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button74->BackColor = BackColor.Orange;
 					button74->Text = cellValue.ToString();
@@ -3324,7 +3324,7 @@ private:
 					button75->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button75->BackColor = BackColor.Yellow;
-					button75->Text = "2";
+					button75->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button75->BackColor = BackColor.Orange;
 					button75->Text = cellValue.ToString();
@@ -3338,7 +3338,7 @@ private:
 					button76->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button76->BackColor = BackColor.Yellow;
-					button76->Text = "2";
+					button76->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button76->BackColor = BackColor.Orange;
 					button76->Text = cellValue.ToString();
@@ -3352,7 +3352,7 @@ private:
 					button77->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button77->BackColor = BackColor.Yellow;
-					button77->Text = "2";
+					button77->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button77->BackColor = BackColor.Orange;
 					button77->Text = cellValue.ToString();
@@ -3366,7 +3366,7 @@ private:
 					button78->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button78->BackColor = BackColor.Yellow;
-					button78->Text = "2";
+					button78->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button78->BackColor = BackColor.Orange;
 					button78->Text = cellValue.ToString();
@@ -3380,7 +3380,7 @@ private:
 					button79->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button79->BackColor = BackColor.Yellow;
-					button79->Text = "2";
+					button79->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button79->BackColor = BackColor.Orange;
 					button79->Text = cellValue.ToString();
@@ -3394,7 +3394,7 @@ private:
 					button80->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button80->BackColor = BackColor.Yellow;
-					button80->Text = "2";
+					button80->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button80->BackColor = BackColor.Orange;
 					button80->Text = cellValue.ToString();
@@ -3408,7 +3408,7 @@ private:
 					button81->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button81->BackColor = BackColor.Yellow;
-					button81->Text = "2";
+					button81->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button81->BackColor = BackColor.Orange;
 					button81->Text = cellValue.ToString();
@@ -3422,7 +3422,7 @@ private:
 					button82->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button82->BackColor = BackColor.Yellow;
-					button82->Text = "2";
+					button82->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button82->BackColor = BackColor.Orange;
 					button82->Text = cellValue.ToString();
@@ -3436,7 +3436,7 @@ private:
 					button83->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button83->BackColor = BackColor.Yellow;
-					button83->Text = "2";
+					button83->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button83->BackColor = BackColor.Orange;
 					button83->Text = cellValue.ToString();
@@ -3450,7 +3450,7 @@ private:
 					button84->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button84->BackColor = BackColor.Yellow;
-					button84->Text = "2";
+					button84->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button84->BackColor = BackColor.Orange;
 					button84->Text = cellValue.ToString();
@@ -3464,7 +3464,7 @@ private:
 					button85->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button85->BackColor = BackColor.Yellow;
-					button85->Text = "2";
+					button85->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button85->BackColor = BackColor.Orange;
 					button85->Text = cellValue.ToString();
@@ -3478,7 +3478,7 @@ private:
 					button86->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button86->BackColor = BackColor.Yellow;
-					button86->Text = "2";
+					button86->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button86->BackColor = BackColor.Orange;
 					button86->Text = cellValue.ToString();
@@ -3492,7 +3492,7 @@ private:
 					button87->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button87->BackColor = BackColor.Yellow;
-					button87->Text = "2";
+					button87->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button87->BackColor = BackColor.Orange;
 					button87->Text = cellValue.ToString();
@@ -3506,7 +3506,7 @@ private:
 					button88->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button88->BackColor = BackColor.Yellow;
-					button88->Text = "2";
+					button88->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button88->BackColor = BackColor.Orange;
 					button88->Text = cellValue.ToString();
@@ -3520,7 +3520,7 @@ private:
 					button89->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button89->BackColor = BackColor.Yellow;
-					button89->Text = "2";
+					button89->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button89->BackColor = BackColor.Orange;
 					button89->Text = cellValue.ToString();
@@ -3534,7 +3534,7 @@ private:
 					button90->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button90->BackColor = BackColor.Yellow;
-					button90->Text = "2";
+					button90->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button90->BackColor = BackColor.Orange;
 					button90->Text = cellValue.ToString();
@@ -3548,7 +3548,7 @@ private:
 					button91->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button91->BackColor = BackColor.Yellow;
-					button91->Text = "2";
+					button91->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button91->BackColor = BackColor.Orange;
 					button91->Text = cellValue.ToString();
@@ -3562,7 +3562,7 @@ private:
 					button92->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button92->BackColor = BackColor.Yellow;
-					button92->Text = "2";
+					button92->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button92->BackColor = BackColor.Orange;
 					button92->Text = cellValue.ToString();
@@ -3576,7 +3576,7 @@ private:
 					button93->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button93->BackColor = BackColor.Yellow;
-					button93->Text = "2";
+					button93->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button93->BackColor = BackColor.Orange;
 					button93->Text = cellValue.ToString();
@@ -3590,7 +3590,7 @@ private:
 					button94->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button94->BackColor = BackColor.Yellow;
-					button94->Text = "2";
+					button94->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button94->BackColor = BackColor.Orange;
 					button94->Text = cellValue.ToString();
@@ -3604,7 +3604,7 @@ private:
 					button95->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button95->BackColor = BackColor.Yellow;
-					button95->Text = "2";
+					button95->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button95->BackColor = BackColor.Orange;
 					button95->Text = cellValue.ToString();
@@ -3618,7 +3618,7 @@ private:
 					button96->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button96->BackColor = BackColor.Yellow;
-					button96->Text = "2";
+					button96->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button96->BackColor = BackColor.Orange;
 					button96->Text = cellValue.ToString();
@@ -3632,7 +3632,7 @@ private:
 					button97->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button97->BackColor = BackColor.Yellow;
-					button97->Text = "2";
+					button97->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button97->BackColor = BackColor.Orange;
 					button97->Text = cellValue.ToString();
@@ -3646,7 +3646,7 @@ private:
 					button98->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button98->BackColor = BackColor.Yellow;
-					button98->Text = "2";
+					button98->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button98->BackColor = BackColor.Orange;
 					button98->Text = cellValue.ToString();
@@ -3660,7 +3660,7 @@ private:
 					button99->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button99->BackColor = BackColor.Yellow;
-					button99->Text = "2";
+					button99->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button99->BackColor = BackColor.Orange;
 					button99->Text = cellValue.ToString();
@@ -3674,7 +3674,7 @@ private:
 					button100->Text = "";
 				} else if (cellValue > 0 && cellValue < 3) {
 					button100->BackColor = BackColor.Yellow;
-					button100->Text = "2";
+					button100->Text = cellValue.ToString();;
 				} else if (cellValue > 2) {
 					button100->BackColor = BackColor.Orange;
 					button100->Text = cellValue.ToString();
